@@ -1,6 +1,13 @@
 :root{
-  --accent:#f26336;
-  --ink:#111;
+  /* Global design tokens (single source of truth) */
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --muted: #64748b;
+  --muted-strong: #475569;
+  --accent: #f26336;
+  --soft: #eef2ff;
+  --line: #e6eef8;
+  --ink: #111;
 }
 
 *{box-sizing:border-box}
