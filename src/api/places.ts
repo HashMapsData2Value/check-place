@@ -2,6 +2,28 @@ import type { GeocodeResponse, GeocodeResult, PlacesNearbyResult } from '../type
 
 const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY?.trim() ?? ''
 
+export async function loadGoogleMapsSdk(): Promise<void> {
+  if ((window as any).google && (window as any).google.maps && (window as any).google.maps.places) return
+
+  return new Promise<void>((resolve, reject) => {
+    const existing = document.querySelector(`script[data-gmaps-sdk]`)
+    if (existing) {
+      existing.addEventListener('load', () => resolve())
+      existing.addEventListener('error', () => reject(new Error('Google Maps SDK failed to load')))
+      return
+    }
+
+    const script = document.createElement('script')
+    script.setAttribute('data-gmaps-sdk', '1')
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&libraries=places`
+    script.async = true
+    script.defer = true
+    script.onload = () => resolve()
+    script.onerror = () => reject(new Error('Google Maps SDK failed to load'))
+    document.head.appendChild(script)
+  })
+}
+
 export async function geocodeAddress(address: string): Promise<GeocodeResult> {
   const searchParams = new URLSearchParams({
     address,
@@ -26,31 +48,7 @@ export async function geocodeAddress(address: string): Promise<GeocodeResult> {
 
 export async function fetchNearbyPlaces(lat: number, lng: number, type: string | string[]): Promise<PlacesNearbyResult[]> {
   if (!GOOGLE_API_KEY) throw new Error('Google API key not configured for Places API.')
-
-  // Load the Google Maps JS SDK (Places) dynamically when needed
-  async function loadGoogleMaps() {
-    if ((window as any).google && (window as any).google.maps && (window as any).google.maps.places) return
-
-    return new Promise<void>((resolve, reject) => {
-      const existing = document.querySelector(`script[data-gmaps-sdk]`)
-      if (existing) {
-        existing.addEventListener('load', () => resolve())
-        existing.addEventListener('error', () => reject(new Error('Google Maps SDK failed to load')))
-        return
-      }
-
-      const script = document.createElement('script')
-      script.setAttribute('data-gmaps-sdk', '1')
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&libraries=places`
-      script.async = true
-      script.defer = true
-      script.onload = () => resolve()
-      script.onerror = () => reject(new Error('Google Maps SDK failed to load'))
-      document.head.appendChild(script)
-    })
-  }
-
-  await loadGoogleMaps()
+  await loadGoogleMapsSdk()
 
   const google = (window as any).google
   const service = new google.maps.places.PlacesService(document.createElement('div'))

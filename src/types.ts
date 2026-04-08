@@ -39,6 +39,28 @@ export type AnalysisResult = {
   rating: string
   summary: string
   categories: CategoryResult[]
+  propertyData?: HasDataProperty
+}
+
+export type HasDataProperty = {
+  id?: number
+  url?: string
+  image?: string
+  status?: string
+  price?: number
+  lastSoldPrice?: number
+  zestimate?: { zestimate?: number; rentZestimate?: number } | number
+  address?: {
+    addressRaw?: string
+    street?: string
+    city?: string
+    state?: string
+    zipcode?: string
+  }
+  geo?: { latitude?: number; longitude?: number }
+  description?: string
+  fees?: { monthlyHoaFee?: string }
+  [key: string]: any
 }
 
 export type GeocodeResult = {

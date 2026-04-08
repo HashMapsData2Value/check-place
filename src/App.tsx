@@ -1,6 +1,7 @@
-import { type FormEvent, useState } from 'react'
+import { type FormEvent, useEffect, useState } from 'react'
 import './App.css'
 import './ui.css'
+import Map from './components/Map'
 import type {
   CategoryKey,
   Landmark,
@@ -12,6 +13,16 @@ import type {
 import { haversineMiles, formatMiles } from './utils/geo'
 import { geocodeAddress, fetchNearbyPlaces } from './api/places'
 const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY?.trim() ?? ''
+const HASDATA_API_KEY = import.meta.env.VITE_HASDATA_API_KEY?.trim() ?? ''
+
+function isZillowUrl(value: string) {
+  try {
+    const u = new URL(value)
+    return /(^|\.)zillow\.com$/.test(u.host)
+  } catch (e) {
+    return /^https?:\/\/(www\.)?zillow\.com\//i.test(value)
+  }
+}
 
 const CATEGORY_META: Record<CategoryKey, CategoryMeta> = {
   campus: {
@@ -252,115 +263,126 @@ const PLACE_TYPE_BY_CATEGORY: Record<CategoryKey, string | string[]> = {
 
 // fetchNearbyPlaces moved to `src/api/places.ts`
 
-async function analyzeLocation(formattedAddress: string, lat: number, lng: number): Promise<AnalysisResult> {
+function computeCampusMatches(lat: number, lng: number, stations?: any[]): Match[] {
+  if (stations && stations.length > 0) {
+    return stations
+      .filter((s: any) => s && typeof s.lat === 'number' && typeof s.lng === 'number')
+      .map((s: any) => {
+        const distanceMiles = haversineMiles(lat, lng, s.lat, s.lng)
+        return {
+          name: s.name,
+          category: 'campus' as CategoryKey,
+          latitude: s.lat,
+          longitude: s.lng,
+          area: s.area ?? '',
+          description: (s.lines ?? []).join(', '),
+          types: s.lines ?? [],
+          distanceMiles,
+          accessLabel: getAccessLabel(distanceMiles),
+        }
+      })
+      .sort((a, b) => a.distanceMiles - b.distanceMiles)
+  }
+
+  return LANDMARKS.filter((l) => l.category === 'campus')
+    .map((landmark) => {
+      const distanceMiles = haversineMiles(lat, lng, landmark.latitude, landmark.longitude)
+      return {
+        ...landmark,
+        distanceMiles,
+        accessLabel: getAccessLabel(distanceMiles),
+      }
+    })
+    .sort((a, b) => a.distanceMiles - b.distanceMiles)
+}
+
+async function computePlacesMatches(key: CategoryKey, lat: number, lng: number): Promise<Match[]> {
+  const placeType = PLACE_TYPE_BY_CATEGORY[key]
+  const places = await fetchNearbyPlaces(lat, lng, placeType)
+
+  const allMatches: Match[] = (places ?? []).map((p: any) => {
+    const distanceMiles = haversineMiles(lat, lng, p.geometry.location.lat, p.geometry.location.lng)
+    return {
+      name: p.name,
+      category: key,
+      latitude: p.geometry.location.lat,
+      longitude: p.geometry.location.lng,
+      area: p.vicinity ?? '',
+      description: (p.types ?? []).join(', '),
+      types: p.types ?? [],
+      distanceMiles,
+      accessLabel: getAccessLabel(distanceMiles),
+    }
+  })
+
+  allMatches.sort((a, b) => a.distanceMiles - b.distanceMiles)
+
+  if (allMatches.length > 0 && key === 'transit') {
+    const preferredTypes = new Set(['subway_station', 'train_station', 'railway_station', 'transit_station'])
+    const preferred = allMatches.find((m) => (m.types ?? []).some((t) => preferredTypes.has(t)) || /metro|mta|marc|station/.test(m.name.toLowerCase()))
+    if (preferred) {
+      allMatches.sort((a, b) => (a === preferred ? -1 : b === preferred ? 1 : a.distanceMiles - b.distanceMiles))
+    }
+  }
+
+  return allMatches
+}
+
+function makeCategoryResult(key: CategoryKey, meta: CategoryMeta, matches: Match[]): CategoryResult {
+  if (!matches || matches.length === 0) {
+    const nearest = {
+      name: `No ${meta.title} found`,
+      category: key,
+      latitude: 0,
+      longitude: 0,
+      area: '',
+      description: '',
+      distanceMiles: 999,
+      accessLabel: getAccessLabel(999),
+      types: [],
+    } as Match
+
+    const score = scoreDistance(nearest.distanceMiles)
+
+    return {
+      key,
+      meta,
+      score,
+      rating: getRating(score),
+      nearest,
+      matches: [],
+    }
+  }
+
+  const nearest = matches[0]
+  const score = scoreDistance(nearest.distanceMiles)
+
+  return {
+    key,
+    meta,
+    score,
+    rating: getRating(score),
+    nearest,
+    matches: matches.slice(0, 3),
+  }
+}
+
+async function analyzeLocation(formattedAddress: string, lat: number, lng: number, stations?: any[]): Promise<AnalysisResult> {
   const categories: CategoryResult[] = []
 
   for (const key of Object.keys(CATEGORY_META) as CategoryKey[]) {
     const meta = CATEGORY_META[key]
 
     if (key === 'campus') {
-      const matches = LANDMARKS.filter((l) => l.category === key)
-        .map((landmark) => {
-          const distanceMiles = haversineMiles(lat, lng, landmark.latitude, landmark.longitude)
-          return {
-            ...landmark,
-            distanceMiles,
-            accessLabel: getAccessLabel(distanceMiles),
-          }
-        })
-        .sort((a, b) => a.distanceMiles - b.distanceMiles)
-
-      const nearest = matches[0] ?? {
-        name: 'No campus landmark',
-        category: key,
-        latitude: lat,
-        longitude: lng,
-        area: '',
-        description: '',
-        distanceMiles: 999,
-        accessLabel: getAccessLabel(999),
-      }
-
-      const score = scoreDistance((nearest as Match).distanceMiles)
-
-      categories.push({
-        key,
-        meta,
-        score,
-        rating: getRating(score),
-        nearest: nearest as Match,
-        matches: matches.slice(0, 3) as Match[],
-      })
+      const matches = computeCampusMatches(lat, lng, stations)
+      categories.push(makeCategoryResult(key, meta, matches))
       continue
     }
 
-    // try Places API for other categories
     try {
-      const placeType = PLACE_TYPE_BY_CATEGORY[key]
-      const places = await fetchNearbyPlaces(lat, lng, placeType)
-      console.debug('analyzeLocation places for', key, { count: places.length, sample: places.slice(0, 3).map(p => p.name) })
-
-      const matches: Match[] = places.slice(0, 6).map((p) => {
-        const distanceMiles = haversineMiles(lat, lng, p.geometry.location.lat, p.geometry.location.lng)
-        return {
-          name: p.name,
-          category: key,
-          latitude: p.geometry.location.lat,
-          longitude: p.geometry.location.lng,
-          area: p.vicinity ?? '',
-          description: (p.types ?? []).join(', '),
-          types: p.types ?? [],
-          distanceMiles,
-          accessLabel: getAccessLabel(distanceMiles),
-        }
-      })
-
-      // prefer matches that clearly indicate subway/train/rail over generic transit stops
-      if (matches.length > 0 && key === 'transit') {
-        const preferredTypes = new Set(['subway_station', 'train_station', 'railway_station', 'transit_station'])
-        const preferred = matches.find((m) => (m.types ?? []).some((t) => preferredTypes.has(t)) || /metro|mta|marc|station/.test(m.name.toLowerCase()))
-        if (preferred) {
-          // move preferred to front
-          matches.sort((a, b) => (a === preferred ? -1 : b === preferred ? 1 : a.distanceMiles - b.distanceMiles))
-        }
-      }
-
-      if (matches.length === 0) {
-        const nearest = {
-          name: `No ${meta.title} found`,
-          category: key,
-          latitude: lat,
-          longitude: lng,
-          area: '',
-          description: '',
-          distanceMiles: 999,
-          accessLabel: getAccessLabel(999),
-          types: [],
-        } as Match
-
-        const score = scoreDistance(nearest.distanceMiles)
-
-        categories.push({
-          key,
-          meta,
-          score,
-          rating: getRating(score),
-          nearest,
-          matches: [],
-        })
-      } else {
-        const nearest = matches[0]
-        const score = scoreDistance(nearest.distanceMiles)
-
-        categories.push({
-          key,
-          meta,
-          score,
-          rating: getRating(score),
-          nearest,
-          matches: matches.slice(0, 3),
-        })
-      }
+      const allMatches = await computePlacesMatches(key, lat, lng)
+      const matches = allMatches.slice(0, 6)
+      categories.push(makeCategoryResult(key, meta, matches))
     } catch (err) {
       const nearest = {
         name: `No ${meta.title} found`,
@@ -411,6 +433,20 @@ function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [errorMessage, setErrorMessage] = useState('')
   const [expandedCategories, setExpandedCategories] = useState<Record<CategoryKey, boolean>>({} as Record<CategoryKey, boolean>)
+  const [stations, setStations] = useState<any[] | null>(null)
+
+  useEffect(() => {
+    // load consolidated shuttle stations published under public/data at runtime
+    void fetch('/data/umd_shuttles_consolidated.json')
+      .then((r) => r.json())
+      .then((data) => {
+        if (data && Array.isArray(data.stations)) setStations(data.stations)
+      })
+      .catch((err) => {
+        console.warn('Failed to load consolidated stations', err)
+        setStations(null)
+      })
+  }, [])
 
   function toggleCategory(key: CategoryKey) {
     setExpandedCategories((prev) => ({ ...prev, [key]: !prev[key] }))
@@ -437,12 +473,74 @@ function App() {
     setErrorMessage('')
 
     try {
+      // If user pasted a Zillow property URL, call HasData first
+      if (isZillowUrl(nextAddress)) {
+        if (!HASDATA_API_KEY) {
+          throw new Error('Add VITE_HASDATA_API_KEY in your local environment to fetch Zillow details.')
+        }
+
+        const encoded = encodeURIComponent(nextAddress)
+        const url = `https://api.hasdata.com/scrape/zillow/property?url=${encoded}`
+        const res = await fetch(url, { headers: { 'Content-Type': 'application/json', 'x-api-key': HASDATA_API_KEY } })
+        if (!res.ok) {
+          const text = await res.text()
+          throw new Error(`HasData API error: ${res.status} ${res.statusText} ${text}`)
+        }
+
+        const hd = await res.json()
+        const prop = hd?.property
+
+        // prefer geo coordinates returned by HasData; otherwise fallback to geocoding the address
+        const lat = prop?.geo?.latitude
+        const lng = prop?.geo?.longitude
+        const formatted = prop?.address?.addressRaw ?? prop?.address?.street ?? prop?.url ?? nextAddress
+
+        let finalLat = lat
+        let finalLng = lng
+
+        if (typeof finalLat !== 'number' || typeof finalLng !== 'number') {
+          // try geocoding the raw address
+          const g = await geocodeAddress(formatted)
+          finalLat = g.geometry.location.lat
+          finalLng = g.geometry.location.lng
+        }
+
+        // ensure stations are available for analysis (load on-demand if not yet fetched)
+        let stationsForAnalyze = stations
+        if (!stationsForAnalyze) {
+          try {
+            const sr = await fetch('/data/umd_shuttles_consolidated.json')
+            const sd = await sr.json()
+            stationsForAnalyze = Array.isArray(sd.stations) ? sd.stations : null
+          } catch (e) {
+            stationsForAnalyze = null
+          }
+        }
+
+        const nextAnalysis = await analyzeLocation(formatted, finalLat, finalLng, stationsForAnalyze ?? undefined)
+        // attach property data to analysis for UI
+        setAnalysis({ ...nextAnalysis, propertyData: prop })
+        return
+      }
+
       const result = await geocodeAddress(nextAddress)
       const lat = result.geometry.location.lat
       const lng = result.geometry.location.lng
       console.log('Geocoded coordinates:', lat, lng)
 
-      const nextAnalysis = await analyzeLocation(result.formatted_address, lat, lng)
+      // ensure stations are available for analysis (load on-demand if not yet fetched)
+      let stationsForAnalyze = stations
+      if (!stationsForAnalyze) {
+        try {
+          const sr = await fetch('/data/umd_shuttles_consolidated.json')
+          const sd = await sr.json()
+          stationsForAnalyze = Array.isArray(sd.stations) ? sd.stations : null
+        } catch (e) {
+          stationsForAnalyze = null
+        }
+      }
+
+      const nextAnalysis = await analyzeLocation(result.formatted_address, lat, lng, stationsForAnalyze ?? undefined)
       setAnalysis(nextAnalysis)
     } catch (error) {
       const message =
@@ -482,12 +580,46 @@ function App() {
         </div>
       </form>
 
+      {analysis ? (
+        <div>
+          <div className="map-embed-wrapper">
+            <Map
+              center={{ lat: analysis.latitude, lng: analysis.longitude }}
+              markers={[
+                { lat: analysis.latitude, lng: analysis.longitude, title: 'Search location', label: 'S' },
+                ...analysis.categories.flatMap((c, idx) => {
+                  if (!c.nearest || (c.nearest.distanceMiles ?? 999) >= 999) return []
+                  return [{ lat: c.nearest.latitude, lng: c.nearest.longitude, title: `${c.meta.title}: ${c.nearest.name}`, label: String(idx + 1) }]
+                }),
+              ]}
+            />
+          </div>
+        </div>
+      ) : null}
+
       <div className="results-area">
         {errorMessage ? <div className="error">{errorMessage}</div> : null}
 
         {analysis ? (
           <div className="results">
             <h2 className="address">{analysis.formattedAddress}</h2>
+            {analysis.propertyData ? (
+              <div className="property-card">
+                {analysis.propertyData.image ? (
+                  <img src={analysis.propertyData.image} alt="property" className="property-thumb" />
+                ) : null}
+                <div className="property-info">
+                  <div className="price">{analysis.propertyData.price != null ? `$${Number(analysis.propertyData.price).toLocaleString()}` : 'Price N/A'}</div>
+                  <div className="muted">{analysis.propertyData.address?.addressRaw ?? analysis.propertyData.address?.street ?? ''}</div>
+                  <div className="muted">Beds: {analysis.propertyData.beds ?? analysis.propertyData.resoData?.bedrooms ?? '—'} • Baths: {analysis.propertyData.baths ?? '—'}</div>
+                  {analysis.propertyData.zestimate ? <div className="muted">Zestimate: {typeof analysis.propertyData.zestimate === 'number' ? `$${Number(analysis.propertyData.zestimate).toLocaleString()}` : analysis.propertyData.zestimate.zestimate ? `$${Number(analysis.propertyData.zestimate.zestimate).toLocaleString()}` : ''}</div> : null}
+                  {analysis.propertyData.fees?.monthlyHoaFee ? <div className="muted">{analysis.propertyData.fees.monthlyHoaFee}</div> : null}
+                  {analysis.propertyData.url ? (
+                    <div><a href={analysis.propertyData.url} target="_blank" rel="noreferrer">View listing</a></div>
+                  ) : null}
+                </div>
+              </div>
+            ) : null}
             <div className="overview">
               <strong className="score">{analysis.score}/100</strong>
               <span className="rating">{analysis.rating}</span>

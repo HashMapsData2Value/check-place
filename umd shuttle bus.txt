@@ -1,0 +1,605 @@
+https://transportation.umd.edu/104-spring
+LINE 104 COLLEGE PARK METRO / DISCOVERY DISTRICT
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1701	1	Mitchell Building
+1705	2	Memorial Chapel
+1709	3	Montgomery Hall
+2636	4	Ritchie Coliseum
+2632	5	Baltimore Avenue and Campus Drive
+2652	6	Campus Drive and Paint Branch Trail
+2004	7*	College Park Metro Station - Bay D (-> Discovery District/Riverdale Park Station)
+2103	8*	River Road at Anacostia Building
+2105	9*	River Road and Rivertech Court
+2104	10*	Anacostia Building
+2111	11*	College Park Academy
+2115	12*	5600 Rivertech Court
+6001	13*	Riverdale Park Station at 46th Street
+2116	14*	5600 Rivertech Court
+2112	15*	College Park Academy
+2138	16*	5801 University Research Court
+2140	17*	5850 University Research Court
+2106	18*	River Road and Rivertech Court
+2102	19*	River Road at Anacostia Building
+2005	20	College Park Metro Station - Bay E (-> UMD main campus)
+2651	21	Campus Drive and Paint Branch Trail
+1726	22	Glenn L. Martin Wind Tunnel
+1102	23	A.V. Williams Building
+1106	24	Paint Branch Drive and Technology Drive
+1121	25	Regents Drive and Paint Branch Drive
+1125	26	Regents Drive at XFINITY Center
+1129	27	Regents Drive and Farm Drive  
+
+https://transportation.umd.edu/105-spring
+LINE 105 CAMPUS CONNECTOR
+STOP ID #	 STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1539	4	Wicomico Hall
+1543	5	Preinkert Drive at Lot MV
+2624	6	Graduate Gardens at Lot 22b
+2626	7	Guilford Drive at Graduate Gardens
+
+2712	8	Baltimore Avenue and Hartwick Road
+1710	9	Montgomery Hall
+1706	10	Memorial Chapel
+1702	11	Mitchell Building
+1136	12	Regents Drive and Campus Drive
+1325	13	Atlantic Building Patio
+1321	14	Yahentamitsi Dining Hall
+1317	15	Ellicott Hall
+1319	16	Stadium Drive and Valley Drive
+1313	17	Denton Hall
+2331	18	Metzerott Road and Greenmead Drive
+2322	19	Greenmead Drive at Maryland 4-H
+2305	20	Courtyards #500
+2321	21	Greenmead Drive at Maryland 4-H
+2325	22	Greenmead Drive and Metzerott Road
+1314	23	Stadium Drive and University Boulevard
+1318	24	Stadium Drive Garage
+1322	25	Varsity Team House
+1326	26	Stadium Drive at Atlantic Building
+
+https://transportation.umd.edu/108-spring
+LINE 108 ADELPHI
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1595	4	Campus Drive at Lot 3
+2331	5	Metzerott Road and Greenmead Drive
+4011	6	Metzerott Road and 36th Avenue
+4015	7	Metzerott Road and Saint Andrews Place
+4019	8	Metzerott Road at System Administration
+4023	9	Metzerott Road at Archives II
+4027	10	Metzerott Road and Adelphi Road
+4031	11	Metzerott Road and Riggs Road
+4035	12	Metzerott Road at Presidential Towers
+4039	13	Metzerott Road and New Hampshire Avenue
+4051	14	New Hampshire Avenue and Fox Street
+4055	15	New Hampshire Avenue and Adelphi Road
+4059	16	New Hampshire Avenue and Oakview Drive
+4070	17	Mount Pisgah Road at Chateau Apartments
+4056	18	New Hampshire Avenue and Adelphi Road
+4040	19	Metzerott Road and New Hampshire Avenue
+4036	20	Metzerott Road at The Delano Apartments
+4032	21	Metzerott Road and Greenspire Terrace
+4028	22	Metzerott Road and 24th Avenue
+4024	23	Metzerott Road at Archives II
+4020	24	Metzerott Road at UMD Observatory
+4016	25	Metzerott Road and Saint Andrews Place
+4012	26	Metzerott Road and 36th Avenue
+2332	27	Metzerott Road and University Boulevard
+1113	28	Paint Branch Drive at Lot 4b
+1109	29	Shuttle-UM Base
+1121	30	Regents Drive and Paint Branch Drive
+1125	31	Regents Drive at XFINITY Center
+1129	32	Regents Drive and Farm Drive
+
+https://transportation.umd.edu/111-spring
+LINE 111 SILVER SPRING
+TOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1595	4	Campus Drive at Lot 3
+2687	5	University Boulevard and Tulane Drive
+4215	6	University Boulevard at Adelphi Plaza
+4219	7	University Boulevard at Campus Gardens
+4223	8	University Boulevard and Riggs Road
+4227	9	University Boulevard and 14th Avenue
+4231	10	Takoma-Langley Crossroads Transit Center - Bay A
+4241	11	Merrimac Drive and Lockney Avenue
+4251	12	Carroll Avenue and Chester Street
+4255	13	Carroll Avenue and Glenside Drive
+4259	14	Carroll Avenue and Garland Avenue
+4261	15	Carroll Avenue and Flower Avenue
+4275	16	Flower Avenue at Washington Adventist University
+4279	17	Flower Avenue and Kennebec Avenue
+4283	18	Flower Avenue and Hudson Avenue
+4287	19	Flower Avenue and Domer Avenue
+4291	20	Flower Avenue and Plymouth Street
+4301	21	Wayne Avenue and Sligo Creek Parkway
+4305	22	Wayne Avenue and Dale Drive
+4309	23	Wayne Avenue and Fenton Street
+4320	24	Silver Spring Metro Station - Bay 231
+4310	25	Wayne Avenue and Fenton Street
+4306	26	Wayne Avenue and Dale Drive
+4302	27	Wayne Avenue and Manchester Place
+4292	28	Flower Avenue and Plymouth Street
+4288	29	Flower Avenue and Domer Avenue
+4284	30	Flower Avenue and Hudson Avenue
+4280	31	Flower Avenue and Kennebec Avenue
+4276	32	Flower Avenue at Washington Adventist University
+4272	33	Flower Avenue and Carroll Avenue
+4260	34	Carroll Avenue and Garland Avenue
+4256	35	Carroll Avenue and Anne Street
+4252	36	Carroll Avenue and Wildwood Drive
+4242	37	Merrimac Drive and University Boulevard
+4134	38	Takoma-Langley Crossroads Transit Center - Bay D
+4228	39	University Boulevard and 15th Avenue
+4224	40	University Boulevard and Guilford Road
+4222	41	University Boulevard and 23rd Avenue
+2688	42	University Boulevard at Graduate Hills
+1314	43	Stadium Drive and University Boulevard
+1318	44	Stadium Drive Garage
+1322	45	Varsity Team House
+1326	46	Stadium Drive at Atlantic Building
+
+https://transportation.umd.edu/113-spring
+LINE 113 HYATTSVILLE
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1595	4	Campus Drive at Lot 3
+2621	5	Adelphi Road at Graduate Hills Apartments
+5011	6	Adelphi Road and Wells Boulevard
+5015	7	Adelphi Road at Northwestern High School
+5027	8	Belcrest Road and Toledo Road
+5029	9	The Mall at Prince George's
+5039	10	Hyattsville Crossing Metro Station
+5054	11	Queensbury Road and 39th Place
+5051	12	42nd Avenue and Queensbury Road
+5055	13	42nd Avenue and Oglethorpe Street
+5059	14	42nd Avenue and Madison Street
+5063	15	42nd Avenue and Jefferson Street
+5072	16	Farragut Street and 42nd Place
+5076	17	Farragut Street and Rhode Island Avenue
+5082	18	Baltimore Avenue and Gallatin Street
+5086	19	Baltimore Avenue and Hamilton Street
+5090	20	Baltimore Avenue and Longfellow Street
+5094	21	Baltimore Avenue and Oglethorpe Street
+5101	22	Queensbury Road and 44th Place
+5105	23	Queensbury Road and 42nd Place
+5053	24	Queensbury Road and 39th Place
+5045	25	Belcrest Road and Queens Chapel Road
+5040	26	Hyattsville Crossing Metro Station
+5030	27	Prince George's Community College
+5028	28	Belcrest Road and Toledo Road
+5016	29	Adelphi Road and Van Buren Street
+5012	30	Adelphi Road and Wells Parkway
+2622	31	Adelphi Road and Campus Drive
+1314	32	Stadium Drive and University Boulevard
+1318	33	Stadium Drive Garage
+1322	34	Varsity Team House
+1326	35	Stadium Drive at Atlantic Building
+
+
+https://transportation.umd.edu/114-spring
+LINE 114 UNIVERSITY VIEW
+STOP ID#	STOP #	STOP LOCATION
+1005	●	Stamp Student Union - Lot HP
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1539	4	Wicomico Hall
+1543	5	Preinkert Drive at Lot MV
+2624	6	Graduate Gardens at Lot 22b
+2626	7	Guilford Drive at Graduate Gardens
+2712	8	Baltimore Avenue and Hartwick Road
+2714	9	Baltimore Avenue and Knox Road
+2636	10	Ritchie Coliseum
+2632	11	Baltimore Avenue and Campus Drive
+2430	12	University View
+2441	13	Baltimore Avenue at The Varsity
+1721	14	Campus Drive at Math Building
+1005	●	Stamp Student Union - Lot HP
+
+https://transportation.umd.edu/115-spring
+LINE 115 ORANGE
+LOCATION ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1701	1	Mitchell Building
+1705	2	Memorial Chapel
+1709	3	Montgomery Hall
+2636	4	Ritchie Coliseum
+1721	5	Campus Drive at Math Building
+1136	6	Regents Drive and Campus Drive
+1325	7	Atlantic Building Patio
+1321	8	Yahentamitsi Dining Hall
+1317	9	Ellicott Hall
+1319	10	Stadium Drive and Valley Drive
+1302	11	Elkton Hall
+1306	12	Hagerstown Hall
+1309	13	La Plata Hall
+1322	14	Varsity Team House
+1326	15	Stadium Drive at Atlantic Building
+
+https://transportation.umd.edu/116-spring
+LINE 116 PURPLE
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1701	1	Mitchell Building
+1705	2	Memorial Chapel
+1709	3	Montgomery Hall
+2672	4	College Avenue and Yale Avenue
+2667	5	Fraternity Row #11
+2663	6	Leonardtown Community Center
+2661	7	Fraternity Row #5
+2659	8	Hotel Drive at The Hotel
+1721	9	Campus Drive at Math Building
+1007	10	Stamp Student Union
+1522	11	Hoff Theater
+1524	12	Fieldhouse Drive and Stamp Student Union
+1512	13	BioSciences Research Building
+1134	14	Regents Drive and Stadium Drive
+1130	15	Regents Drive and Farm Drive
+1126	16	Regents Drive at XFINITY Center
+1122	17	Regents Drive and Paint Branch Drive
+1110	18	Shuttle-UM Base
+1114	19	Paint Branch Drive at Lot 4b
+2303	20	Courtyards #300
+2304	21	Courtyards #400
+2305	22	Courtyards #500
+2321	23	Greenmead Drive at Maryland 4-H
+2325	24	Greenmead Drive and Metzerott Road
+1113	25	Paint Branch Drive at Lot 4b
+1109	26	Shuttle-UM Base
+1121	27	Regents Drive and Paint Branch Drive
+1125	28	Regents Drive at XFINITY Center
+1129	29	Regents Drive and Farm Drive
+
+
+https://transportation.umd.edu/117-spring
+LINE 117 BLUE
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1539	4	Wicomico Hall
+1543	5	Preinkert Drive at Lot MV
+2612	6	College Park Shopping Center
+2714	7	Baltimore Avenue and Knox Road
+2636	8	Ritchie Coliseum
+2632	9	Baltimore Avenue and Campus Drive
+2451	10	Rhode Island and Navahoe Street
+2449	11	University Club Apartments
+2445	12	The Alloy
+2430	13	University View
+2441	14	Baltimore Avenue at The Varsity
+1721	15	Campus Drive at Math Building
+1136	16	Regents Drive and Campus Drive
+1134	17	Regents Drive and Stadium Drive
+1130	18	Regents Drive and Farm Drive
+1331	19	Cambridge Hall
+1332	20	Cumberland Hall
+
+https://transportation.umd.edu/118-spring
+LINE 118 GOLD
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1342	2	Alumni Drive at Stadium Drive Garage
+1313	3	Denton Hall
+2681	4	Graduate Hills at 3424 Tulane Drive
+2683	5	Graduate Hills at 3410 Tulane Drive
+2685	6	Graduate Hills at 3404 Tulane Drive
+2688	7	University Boulevard at Graduate Hills
+1592	8	Campus Drive at UMGC Lot 19
+1596	9	University Methodist Church
+1561	10	Van Munching Hall
+1565	11	LDS Institute of Religion
+1570	12	South Campus Commons 1 & 2
+2624	13	Graduate Gardens at Lot 22b
+2626	14	Guilford Drive at Graduate Gardens
+2712	15	Baltimore Avenue and Hartwick Road
+1710	16	Montgomery Hall
+1706	17	Memorial Chapel
+1581	18	Shoemaker Building
+1582	19	Lot Y and Chapel Drive
+1702	20	Mitchell Building
+1722	21	Campus Drive at Engineering Fields
+1726	22	Glenn L. Martin Wind Tunnel
+1102	23	A.V. Williams Building
+1106	24	Paint Branch Drive and Technology Drive
+1121	25	Regents Drive and Paint Branch Drive
+1125	26	Regents Drive at XFINITY Center
+1129	27	Regents Drive and Farm Drive
+
+
+https://transportation.umd.edu/122-spring
+LINE 122 GREEN
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1701	1	Mitchell Building
+1705	2	Memorial Chapel
+1709	3	Montgomery Hall
+2672	4	College Avenue and Yale Avenue
+2674	5	College Avenue and Princeton Avenue
+2676	6	College Avenue and Hopkins Avenue
+2678	7	College Avenue and Rhode Island Avenue
+2691	8	Rhode Island Avenue and Knox Road
+2693	9	Knox Road and Hopkins Avenue
+2695	10	Knox Road and Princeton Avenue
+2697	11	Knox Road and Yale Avenue
+1579	12	South Campus Commons 3 and 4
+2624	13	Graduate Gardens at Lot 22b
+2626	14	Guilford Drive at Graduate Gardens
+
+2712	15	Baltimore Avenue and Hartwick Road
+1710	16	Montgomery Hall
+1706	17	Memorial Chapel
+1702	18	Mitchell Building
+1007	19	Stamp Student Union
+1342	20	Alumni Drive at Stadium Drive Garage
+1302	21	Elkton Hall
+1306	22	Hagerstown Hall
+1309	23	La Plata Hall
+1322	24	Varsity Team House
+1326	25	Stadium Drive at Atlantic Building
+
+https://transportation.umd.edu/126-spring
+LINE 126 NEW CARROLTON
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1539	4	Wicomico Hall
+1543	5	Preinkert Drive at Lot MV
+2624	6	Graduate Gardens at Lot 22b
+2626	7	Guilford Drive at Graduate Gardens
+5211	8	Baltimore Avenue at University Park Town Hall
+5215	9	Baltimore Avenue at Riverdale Park Station
+5219	10	Baltimore Avenue and Underwood Street
+6012	11	East-West Highway and West Beale Circle
+6022	12	East-West Highway and Taylor Road
+6032	13	Riverdale Road and 63rd Avenue
+6036	14	Riverdale Road and Eastpine Drive
+6040	15	Riverdale Road and 67th Avenue
+6044	16	Riverdale Road and Auburn Avenue
+6048	17	Riverdale Road and Martins Lane
+6052	18	Riverdale Road and Finns Lane
+6056	19	Riverdale Road and Lamont Drive
+6060	20	Riverdale Road at Fountain Club Apartments
+6064	21	Riverdale Road and Mahoney Drive
+6068	22	Riverdale Road at Heritage Square Apartments
+6072	23	Annapolis Road and Riverdale Road
+6082	24	Harkins Road and Annapolis Road
+6090	25	Harkins Road and Ellin Road
+6100	26	New Carrollton Metro Station - Bay T6
+6112	27	85th Avenue at Lenox Court Apartments
+6116	28	85th Avenue at Carrollton Manor Apartments
+6120	29	85th Avenue and Longfellow Street
+6124	30	85th Avenue and Legation Street
+6132	31	Westbrook Drive and Madison Street
+6136	32	Westbrook Drive and Oglethorpe Street
+6140	33	Westbrook Drive and Powhatan Street
+6145	34	Westbrook Drive and Lamont Drive
+6152	35	Lamont Drive and Larchwood Street
+6156	36	Lamont Drive and Carrollton Parkway
+6160	37	Lamont Drive and Quentin Street
+6164	38	Lamont Drive and Donoghue Drive
+6171	39	Good Luck Road at Lamont Elementary School
+6175	40	Good Luck Road and Nashville Road
+6179	41	Good Luck Road and Ian Street
+6191	42	Auburn Avenue and Chestnut Avenue
+6193	43	Auburn Avenue and 3rd Street
+6195	44	Auburn Avenue and 1st Street
+6197	45	Auburn Avenue and Riverdale Road
+
+6043	46	Riverdale Road at Wildercroft Shopping Center
+6039	47	Riverdale Road and 67th Court
+6035	48	Riverdale Road and 64th Avenue
+6031	49	Riverdale Road and 62nd Place
+6021	50	East-West Highway and Taylor Road
+5224	51	Baltimore Avenue and Sheridan Street
+5220	52	Baltimore Avenue at National Guard Armory
+5216	53	Baltimore Avenue at Riverdale Park Station
+5212	54	Baltimore Avenue and Amherst Road
+2712	55	Baltimore Avenue and Hartwick Road
+1710	56	Montgomery Hall
+1706	57	Memorial Chapel
+1702	58	Mitchell Building
+1722	59	Campus Drive at Engineering Fields
+1726	60	Glenn L. Martin Wind Tunnel
+1102	61	A.V. Williams Building
+1106	62	Paint Branch Drive and Technology Drive
+1121	63	Regents Drive and Paint Branch Drive
+1125	64	Regents Drive at XFINITY Center
+1129	65	Regents Drive and Farm Drive
+
+
+https://transportation.umd.edu/133-spring
+LINE 133 GROCERY SHOPPING SHUTTLE
+STOP ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1722	1	Campus Drive at Engineering Fields
+1726	2	Glenn L. Martin Wind Tunnel
+1102	3	A.V. Williams Building
+1106	4	Paint Branch Drive and Technology Drive
+1121	5	Regents Drive and Paint Branch Drive
+1125	6	Regents Drive at XFINITY Center
+1129	7	Regents Drive and Farm Drive
+1325	8	Atlantic Building Patio
+1321	9	Yahentamitsi Dining Hall
+1310	10	La Plata Hall
+1305	11	Hagerstown Hall
+1301	12	Elkton Hall
+1313	13	Denton Hall
+2681	14	Graduate Hills at 3424 Tulane Drive
+2683	15	Graduate Hills at 3410 Tulane Drive
+2685	16	Graduate Hills at 3404 Tulane Drive
+2688	17	University Boulevard at Graduate Hills
+1592	18	Campus Drive at UMGC Lot 19
+1596	19	University Methodist Church
+1539	20	Wicomico Hall
+1543	21	Preinkert Drive at Lot MV
+2624	22	Graduate Gardens at Lot 22b
+2626	23	Guilford Drive at Graduate Gardens
+5211	24	Baltimore Avenue at University Park Town Hall
+5215	25	Baltimore Avenue at Riverdale Park Station
+5219	26	Baltimore Avenue and Underwood Street
+5252	27	America Boulevard at Safeway
+5256	28	America Boulevard at Regal Cinemas Hyattsville
+5029	29	The Mall at Prince George's
+5224	30	Baltimore Avenue and Sheridan Street
+5220	31	Baltimore Avenue at National Guard Armory
+5216	32	Baltimore Avenue at Riverdale Park Station
+5212	33	Baltimore Avenue and Amherst Road
+2627	34	Guilford Drive and Rowalt Drive
+1544	35	South Campus Commons 5 and 6
+1540	36	Preinkert Drive at Lot A
+1536	37	Somerset Hall
+1595	38	Campus Drive at Lot 3
+1314	39	Stadium Drive and University Boulevard
+1302	40	Elkton Hall
+1306	41	Hagerstown Hall
+1309	42	La Plata Hall
+1322	43	Varsity Team House
+1326	44	Stadium Drive at Atlantic Building
+
+https://transportation.umd.edu/132-spring
+LINE 132 THE VARSITY
+STOP ID#	STOP #	STOP LOCATION
+1005	●	Stamp Student Union - Lot HP
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1539	4	Wicomico Hall
+1543	5	Preinkert Drive at Lot MV
+2624	6	Graduate Gardens at Lot 22b
+2626	7	Guilford Drive at Graduate Gardens
+2712	8	Baltimore Avenue and Hartwick Road
+2714	9	Baltimore Avenue and Knox Road
+2636	10	Ritchie Coliseum
+2632	11	Baltimore Avenue and Campus Drive
+2451	12	Rhode Island Avenue and Navahoe Street
+2449	13	University Club Apartments
+2445	14	The Alloy
+2441	15	Baltimore Avenue at The Varsity
+1721	16	Campus Drive at Math Building
+
+https://transportation.umd.edu/128-spring
+LINE 128 MGM/TEMPO VIA NORTH COLLEGE PARK
+LOCATION ID#	STOP #	STOP LOCATION
+1005	●	Stamp Student Union - Lot HP
+1722	1	Campus Drive at Engineering Fields
+2442	2	Baltimore Avenue and Lakeland Road
+2440	3	Baltimore Avenue and Berwyn House Road
+2422	4	Baltimore Avenue and Quebec Street
+2420	5	Baltimore Avenue and Berwyn Road
+2152	6	Greenbelt Road and 48th Avenue
+3012	7	Rhode Island Avenue and University Boulevard
+3014	8	Rhode Island Avenue and Apache Street
+3016	9	Rhode Island Avenue and Cherokee Street
+3020	10	Rhode Island Avenue and Fox Street
+3022	11	Rhode Island Avenue and Kenesaw Street
+3024	12	Rhode Island Avenue and Hollywood Road
+3028	13	Rhode Island Avenue at Hollywood Shopping Center
+3042	14	Edgewood Road and Rhode Island Avenue
+3046	15	Edgewood Road and 49th Avenue
+3051	16	Baltimore Avenue and Cherry Hill Road
+3055	17	Baltimore Avenue and Hollywood Road
+3060	18	Mazza GrandMarc
+
+3063	19	Baltimore Avenue and Indian Lane
+3067	20	Baltimore Avenue and Erie Street
+3071	21	Baltimore Avenue and Cherokee Street
+2415	22	Baltimore Avenue and Metzerott Road
+2419	23	Baltimore Ave and Berwyn Road
+2421	24	Baltimore Avenue and Quebec Street
+2439	25	Baltimore Avenue at University View
+2441	26	Baltimore Avenue at The Varsity
+1721	27	Campus Drive at Math Building
+
+https://transportation.umd.edu/141-spring
+LINE 141 GAITHERSBURG PARK & RIDE
+STOP ID#	STOP #	STOP LOCATION
+1004	●	Mowatt Lane Garage
+4999	1	West Diamond Avenue Park & Ride Lot
+
+https://transportation.umd.edu/142-spring
+LINE 142 COLUMBIA PARK & RIDE
+LOCATION ID#	STOP #	STOP LOCATION
+1004	●	Mowatt Lane Garage
+3999	1	Broken Land Park & Ride East Lot
+
+https://transportation.umd.edu/143-spring
+LINE 143 GREENBELT
+LOCATION ID#	STOP #	STOP LOCATION
+1001	●	Regents Drive Garage
+1007	1	Stamp Student Union
+1531	2	Benjamin Building
+1535	3	Art/Sociology Building
+1595	4	Campus Drive at Lot 3
+2156	5	Greenbelt Road at Severn Building
+3212	6	Greenbelt Road and Greenbelt Station Parkway
+3216	7	Greenbelt Road and 60th Avenue
+3221	8	60th Avenue and Greenbelt Road
+3225	9	60th Avenue and Ruatan Street
+3231	10	Cunningham Drive and Pontiac Street
+3242	11	Pontiac Street and 63rd Avenue
+3250	12	Westchester Park Circle
+3258	13	Ridge Road and Ivy Lane
+3262	14	Ivy Lane and Lastner Lane
+3266	15	Lastner Lane and Julian Court
+3270	16	Ridge Road and Research Road
+3275	17	Ridge Road and Plateau Place
+3279	18	Ridge Road and Eastway
+3283	19	Ridge Road and Gardenway
+3287	20	Ridge Road at Green Ridge House Apartments
+3291	21	Westway and Ridge Road
+3295	22	Lakeside Drive and Westway
+3303	23	Lakecrest Drive and Greenbelt Road
+3307	24	Greenbelt Road at Greenway Center
+3314	25	Ora Glen Drive and Hanover Parkway
+3318	26	Ora Glen Drive and Greenbrook Drive
+3322	27	Ora Glen Drive and Morrison Drive
+3326	28	Mandan Road and Canning Terrace
+3330	29	Mandan Road at Glen Oaks Apartments
+3334	30	Mandan Road and Hanover Parkway
+3337	31	Hanover Parkway at Eleanor Roosevelt High School
+3341	32	Hanover Parkway and Greenbelt Road
+3308	33	Greenbelt Road at Greenway Center
+3304	34	Lakecrest Drive and Greenbelt Road
+3298	35	Lakecrest Drive and Lakeside Drive
+3296	36	Lakeside Drive and Westway
+3292	37	Westway and Ridge Road
+3288	38	Ridge Road and Southway
+3284	39	Ridge Road and Gardenway
+3280	40	Ridge Road and Eastway
+3276	41	Ridge Road and Plateau Place
+3269	42	Ridge Road and Research Road
+3265	43	Lastner Lane and Julian Court
+3261	44	Lastner Lane and Ivy Lane
+3257	45	Ivy Lane and Ridge Road
+3250	46	Westchester Park Circle
+3241	47	Pontiac Street and 63rd Avenue
+3233	48	Pontiac Street and Cunningham Drive
+3226	49	60th Avenue and Quebec Place
+3222	50	60th Avenue and Greenbelt Road
+3215	51	Greenbelt Road and Branchville Road
+3211	52	Greenbelt Road and Greenbelt Station Parkway
+2155	53	Greenbelt Road at Severn Building
+1314	54	Stadium Drive and University Boulevard
+1318	55	Stadium Drive Garage
+1322	56	Varsity Team House
+1326	57	Stadium Drive at Atlantic Building
