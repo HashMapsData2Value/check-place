@@ -13,27 +13,30 @@
   border-radius: 12px;
   background: transparent;
   box-shadow: none;
-  .page-shell {
-    max-width: 920px;
-    margin: 28px auto;
-    padding: 18px;
-  }
+}
 
-  .topbar {
-    text-align: center;
-    margin-bottom: 8px;
-  }
+.hero-panel .page-shell {
+  max-width: 920px;
+  margin: 28px auto;
+  padding: 18px;
+}
+}
 
-  .topbar h1 {
-    margin: 0;
-    font-size: 20px;
-  }
+.topbar {
+  text-align: center;
+  margin-bottom: 8px;
+}
 
-  .topbar .sub {
-    margin: 4px 0 0;
-    font-size: 13px;
-    color: #666;
-  }
+.topbar h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.topbar .sub {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #666;
+}
 .match-row p,
 .empty-state p,
 .score-summary,
