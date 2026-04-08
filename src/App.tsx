@@ -204,47 +204,57 @@ function getAccessLabel(distanceMiles: number) {
   return 'Farther outing'
 }
 
-function scoreDistance(distanceMiles: number) {
-  if (distanceMiles <= 0.5) {
-    return 100
-  }
+function scoreDistance(distanceMiles: number, category: CategoryKey) {
+  // Map distance (miles) → approximate walking minutes (1 mile ≈ 20 minutes)
+  if (!isFinite(distanceMiles) || distanceMiles > 900) return 1
+  const minutes = distanceMiles * 20
 
-  if (distanceMiles <= 1.5) {
-    return 88
+  // Return integer walkability score 1..5 (5 = best)
+  switch (category) {
+    case 'campus': {
+      if (minutes <= 5) return 5
+      if (minutes <= 15) return 4
+      if (minutes <= 30) return 3
+      if (minutes <= 45) return 2
+      return 1
+    }
+    case 'transit': {
+      if (minutes <= 5) return 5
+      if (minutes <= 15) return 4
+      if (minutes <= 30) return 3
+      if (minutes <= 45) return 2
+      return 1
+    }
+    case 'healthcare': {
+      if (minutes <= 10) return 5
+      if (minutes <= 20) return 4
+      if (minutes <= 30) return 3
+      if (minutes <= 45) return 2
+      return 1
+    }
+    case 'grocery': {
+      if (minutes <= 5) return 5
+      if (minutes <= 15) return 4
+      if (minutes <= 30) return 3
+      if (minutes <= 45) return 2
+      return 1
+    }
+    default: {
+      if (minutes <= 5) return 5
+      if (minutes <= 15) return 4
+      if (minutes <= 30) return 3
+      if (minutes <= 45) return 2
+      return 1
+    }
   }
-
-  if (distanceMiles <= 3) {
-    return 74
-  }
-
-  if (distanceMiles <= 6) {
-    return 58
-  }
-
-  if (distanceMiles <= 10) {
-    return 42
-  }
-
-  return 24
 }
 
 function getRating(score: number) {
-  if (score >= 85) {
-    return 'Excellent'
-  }
-
-  if (score >= 70) {
-    return 'Strong'
-  }
-
-  if (score >= 55) {
-    return 'Balanced'
-  }
-
-  if (score >= 40) {
-    return 'Limited'
-  }
-
+  // score is on a 1..5 walkability scale (may be fractional for aggregated score)
+  if (score >= 4.5) return 'Excellent'
+  if (score >= 3.5) return 'Strong'
+  if (score >= 2.5) return 'Balanced'
+  if (score >= 1.5) return 'Limited'
   return 'Weak'
 }
 
@@ -342,7 +352,7 @@ function makeCategoryResult(key: CategoryKey, meta: CategoryMeta, matches: Match
       types: [],
     } as Match
 
-    const score = scoreDistance(nearest.distanceMiles)
+    const score = scoreDistance(nearest.distanceMiles, key)
 
     return {
       key,
@@ -355,7 +365,7 @@ function makeCategoryResult(key: CategoryKey, meta: CategoryMeta, matches: Match
   }
 
   const nearest = matches[0]
-  const score = scoreDistance(nearest.distanceMiles)
+  const score = scoreDistance(nearest.distanceMiles, key)
 
   return {
     key,
@@ -396,7 +406,7 @@ async function analyzeLocation(formattedAddress: string, lat: number, lng: numbe
         types: [],
       } as Match
 
-      const score = scoreDistance(nearest.distanceMiles)
+      const score = scoreDistance(nearest.distanceMiles, key)
 
       categories.push({
         key,
@@ -410,7 +420,7 @@ async function analyzeLocation(formattedAddress: string, lat: number, lng: numbe
   }
 
   const weightedScore = categories.reduce((total, category) => total + category.score * category.meta.weight, 0)
-  const score = Math.round(weightedScore)
+  const score = Math.round(weightedScore * 10) / 10
   const rating = getRating(score)
   const strongest = [...categories].sort((a, b) => b.score - a.score)[0]
   const weakest = [...categories].sort((a, b) => a.score - b.score)[0]
@@ -643,7 +653,7 @@ function App() {
               </div>
             ) : null}
             <div className="overview">
-              <strong className="score">{analysis.score}/100</strong>
+              <strong className="score">{analysis.score}/5</strong>
               <span className="rating">{analysis.rating}</span>
             </div>
             <p className="summary">{analysis.summary}</p>
