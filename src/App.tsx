@@ -1,4 +1,4 @@
-import { type FormEvent, useEffect, useState } from 'react'
+import { type FormEvent, useEffect, useState, useMemo } from 'react'
 import './App.css'
 import './ui.css'
 import Map from './components/Map'
@@ -26,7 +26,7 @@ function isZillowUrl(value: string) {
 
 const CATEGORY_META: Record<CategoryKey, CategoryMeta> = {
   campus: {
-    title: 'University shuttle access',
+    title: 'University Shuttle',
     eyebrow: 'Campus mobility',
     description: 'Starter UMD shuttle landmarks and campus pickup anchors.',
     weight: 0.3,
@@ -44,7 +44,7 @@ const CATEGORY_META: Record<CategoryKey, CategoryMeta> = {
     weight: 0.2,
   },
   grocery: {
-    title: 'Big supermarkets',
+    title: 'Grocery Stores',
     eyebrow: 'Daily essentials',
     description: 'A practical mix of full-size grocery and warehouse options.',
     weight: 0.2,
@@ -556,6 +556,37 @@ function App() {
 
   }
 
+  const markers = useMemo(() => {
+    if (!analysis) return []
+
+    const CATEGORY_MARKERS: Record<CategoryKey, { color: string; emoji: string }> = {
+      campus: { color: '#f97316', emoji: '🚌' },
+      transit: { color: '#06b6d4', emoji: '🚆' },
+      healthcare: { color: '#ef4444', emoji: '🏥' },
+      grocery: { color: '#10b981', emoji: '🛒' },
+    }
+
+    const m = [
+      { lat: analysis.latitude, lng: analysis.longitude, title: 'Search location', pin: true, color: '#000000', scale: 12 },
+      ...analysis.categories.flatMap((c) => {
+        if (!c.nearest || (c.nearest.distanceMiles ?? 999) >= 999) return []
+        const meta = CATEGORY_MARKERS[c.key]
+        return [{ lat: c.nearest.latitude, lng: c.nearest.longitude, title: `${c.meta.title}: ${c.nearest.name}`, emoji: meta.emoji, color: meta.color, scale: 8 }]
+      }),
+    ]
+
+    return m
+  }, [analysis])
+
+  useEffect(() => {
+    if (markers && markers.length) console.log('Map markers (memo):', markers)
+  }, [markers])
+
+  const center = useMemo(() => {
+    if (!analysis) return null
+    return { lat: analysis.latitude, lng: analysis.longitude }
+  }, [analysis?.latitude, analysis?.longitude])
+
   return (
     <main className="page-shell simple">
       <header className="topbar">
@@ -583,16 +614,7 @@ function App() {
       {analysis ? (
         <div>
           <div className="map-embed-wrapper">
-            <Map
-              center={{ lat: analysis.latitude, lng: analysis.longitude }}
-              markers={[
-                { lat: analysis.latitude, lng: analysis.longitude, title: 'Search location', label: 'S' },
-                ...analysis.categories.flatMap((c, idx) => {
-                  if (!c.nearest || (c.nearest.distanceMiles ?? 999) >= 999) return []
-                  return [{ lat: c.nearest.latitude, lng: c.nearest.longitude, title: `${c.meta.title}: ${c.nearest.name}`, label: String(idx + 1) }]
-                }),
-              ]}
-            />
+            <Map center={center} markers={markers} />
           </div>
         </div>
       ) : null}
@@ -632,9 +654,29 @@ function App() {
                   <div className="cat-head">
                     <h3>{c.meta.title}</h3>
                     <div className="cat-controls">
-                      <button type="button" className="details-button" onClick={() => toggleCategory(c.key)}>
+                      <div
+                        role="button"
+                        tabIndex={0}
+                        className="details-button"
+                        onClick={() => toggleCategory(c.key)}
+                        onMouseDown={(e) => {
+                          e.preventDefault()
+                          e.stopPropagation()
+                        }}
+                        onMouseUp={(e) => {
+                          e.preventDefault()
+                          e.stopPropagation()
+                        }}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault()
+                            toggleCategory(c.key)
+                          }
+                        }}
+                        aria-pressed={expandedCategories[c.key] || false}
+                      >
                         {expandedCategories[c.key] ? 'Hide' : 'Details'}
-                      </button>
+                      </div>
                       <span className="cat-score">{c.score}</span>
                     </div>
                   </div>
