@@ -7,6 +7,7 @@ function apiUrl(path: string) {
   const base = API_BASE.replace(/\/$/, '')
   return path.startsWith('/') ? `${base}${path}` : `${base}/${path}`
 }
+
 export { apiUrl }
 
 // All Google API calls are proxied through the backend `/api` endpoints.
