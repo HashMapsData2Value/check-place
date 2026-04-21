@@ -182,8 +182,6 @@ const LANDMARKS: Landmark[] = [
   },
 ]
 
-const EXAMPLE_ADDRESS = '7313 Baltimore Ave, College Park, MD 20740'
-
 function getAccessLabel(distanceMiles: number) {
   if (distanceMiles <= 0.5) {
     return 'Walkable'
@@ -438,7 +436,7 @@ async function analyzeLocation(formattedAddress: string, lat: number, lng: numbe
 }
 
 function App() {
-  const [address, setAddress] = useState(EXAMPLE_ADDRESS)
+  const [address, setAddress] = useState('')
   const [analysis, setAnalysis] = useState<AnalysisResult | null>(null)
   const [isLoading, setIsLoading] = useState(false)
   const [errorMessage, setErrorMessage] = useState('')
