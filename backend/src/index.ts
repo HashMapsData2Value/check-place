@@ -40,7 +40,7 @@ try {
     }
   }
 } catch (err) {
-  server.log.warn('Failed to load .env.local', err)
+  server.log.warn('Failed to load .env.local: %s', String(err))
 }
 
 type CacheVal = any

@@ -1,4 +1,4 @@
-import type { GeocodeResponse, GeocodeResult, PlacesNearbyResult } from '../types'
+import type { GeocodeResult, PlacesNearbyResult } from '../types'
 
 const API_BASE = (import.meta.env.VITE_API_BASE_URL ?? '').trim()
 
@@ -9,9 +9,9 @@ function apiUrl(path: string) {
 }
 export { apiUrl }
 
-// All Google API calls are proxied through the backend `/api` endpoints.
+// Load Google Maps JS SDK for client-side map rendering.
 export async function loadGoogleMapsSdk(): Promise<void> {
-  // no-op: client-side Google SDK not required when backend performs Places calls
+  // No-op: frontend map rendering uses Leaflet + OpenStreetMap tiles
   return Promise.resolve()
 }
 

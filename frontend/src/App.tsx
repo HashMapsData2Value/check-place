@@ -611,7 +611,7 @@ function App() {
 
       {analysis ? (
         <div>
-          <div className="map-embed-wrapper">
+          <div className="map-embed">
             <Map center={center} markers={markers} />
           </div>
         </div>
