@@ -5,6 +5,11 @@ infra/terraform/.terraform/
 *.tfstate
 *.tfstate.backup
 .terraform/
+infra/terraform/.terraform/**
+.terraform/**
+.terraform/providers/
+.terraform/plugins/
+.terraform/providers/**
 
 ## Ignore local credential/config files
 .env
