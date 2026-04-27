@@ -1,0 +1,8259 @@
+{
+  "generatedAt": "2026-04-08T00:30:47.152Z",
+  "counts": {
+    "stations": 273,
+    "lines": 18,
+    "outliersRegeocodeReport": 30
+  },
+  "campusCenter": {
+    "lat": 38.9896967,
+    "lng": -76.93776
+  },
+  "lines": [
+    {
+      "id": "104",
+      "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+      "url": "https://transportation.umd.edu/104-spring"
+    },
+    {
+      "id": "105",
+      "name": "CAMPUS CONNECTOR",
+      "url": "https://transportation.umd.edu/105-spring"
+    },
+    {
+      "id": "108",
+      "name": "ADELPHI",
+      "url": "https://transportation.umd.edu/108-spring"
+    },
+    {
+      "id": "111",
+      "name": "SILVER SPRING",
+      "url": "https://transportation.umd.edu/111-spring"
+    },
+    {
+      "id": "113",
+      "name": "HYATTSVILLE",
+      "url": "https://transportation.umd.edu/113-spring"
+    },
+    {
+      "id": "114",
+      "name": "UNIVERSITY VIEW",
+      "url": "https://transportation.umd.edu/114-spring"
+    },
+    {
+      "id": "115",
+      "name": "ORANGE",
+      "url": "https://transportation.umd.edu/115-spring"
+    },
+    {
+      "id": "116",
+      "name": "PURPLE",
+      "url": "https://transportation.umd.edu/116-spring"
+    },
+    {
+      "id": "117",
+      "name": "BLUE",
+      "url": "https://transportation.umd.edu/117-spring"
+    },
+    {
+      "id": "118",
+      "name": "GOLD",
+      "url": "https://transportation.umd.edu/118-spring"
+    },
+    {
+      "id": "122",
+      "name": "GREEN",
+      "url": "https://transportation.umd.edu/122-spring"
+    },
+    {
+      "id": "126",
+      "name": "NEW CARROLTON",
+      "url": "https://transportation.umd.edu/126-spring"
+    },
+    {
+      "id": "133",
+      "name": "GROCERY SHOPPING SHUTTLE",
+      "url": "https://transportation.umd.edu/133-spring"
+    },
+    {
+      "id": "132",
+      "name": "THE VARSITY",
+      "url": "https://transportation.umd.edu/132-spring"
+    },
+    {
+      "id": "128",
+      "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+      "url": "https://transportation.umd.edu/128-spring"
+    },
+    {
+      "id": "141",
+      "name": "GAITHERSBURG PARK & RIDE",
+      "url": "https://transportation.umd.edu/141-spring"
+    },
+    {
+      "id": "142",
+      "name": "COLUMBIA PARK & RIDE",
+      "url": "https://transportation.umd.edu/142-spring"
+    },
+    {
+      "id": "143",
+      "name": "GREENBELT",
+      "url": "https://transportation.umd.edu/143-spring"
+    }
+  ],
+  "stations": [
+    {
+      "id": "1001",
+      "name": "Regents Drive Garage",
+      "aliases": [
+        "Regents Drive Garage"
+      ],
+      "lines": [
+        "104",
+        "105",
+        "108",
+        "111",
+        "113",
+        "115",
+        "116",
+        "117",
+        "118",
+        "122",
+        "126",
+        "133",
+        "143"
+      ],
+      "stopIds": [
+        "1001"
+      ],
+      "lat": 38.989405,
+      "lng": -76.94080699999999,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1701",
+      "name": "Mitchell Building",
+      "aliases": [
+        "Mitchell Building"
+      ],
+      "lines": [
+        "104",
+        "105",
+        "115",
+        "116",
+        "118",
+        "122",
+        "126"
+      ],
+      "stopIds": [
+        "1701",
+        "1702"
+      ],
+      "lat": 38.986705,
+      "lng": -76.9395145,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Mitchell Building",
+        "oldLat": 43.0372148,
+        "oldLng": -87.9085703,
+        "oldDist": 635.9870237154397,
+        "newLat": 38.986705,
+        "newLng": -76.9395145,
+        "newDist": 0.2271717603832679,
+        "formatted": "7999 Regents Dr, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "1705",
+      "name": "Memorial Chapel",
+      "aliases": [
+        "Memorial Chapel"
+      ],
+      "lines": [
+        "104",
+        "105",
+        "115",
+        "116",
+        "118",
+        "122",
+        "126"
+      ],
+      "stopIds": [
+        "1705",
+        "1706"
+      ],
+      "lat": 38.9842035,
+      "lng": -76.9408095,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Memorial Chapel",
+        "oldLat": 30.2815485,
+        "oldLng": -82.1237795,
+        "oldDist": 669.7122011440174,
+        "newLat": 38.9842035,
+        "newLng": -76.9408095,
+        "newDist": 0.41337545184509245,
+        "formatted": "7600 Baltimore Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "1709",
+      "name": "Montgomery Hall",
+      "aliases": [
+        "Montgomery Hall"
+      ],
+      "lines": [
+        "104",
+        "105",
+        "115",
+        "116",
+        "118",
+        "122",
+        "126"
+      ],
+      "stopIds": [
+        "1709",
+        "1710"
+      ],
+      "lat": 38.9818893,
+      "lng": -76.9392989,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Montgomery Hall",
+        "oldLat": 32.0480997,
+        "oldLng": -81.109261,
+        "oldDist": 533.7549925085752,
+        "newLat": 38.9818893,
+        "newLng": -76.9392989,
+        "newDist": 0.5457399807080019,
+        "formatted": "7570 Regents Dr, College Park, MD 20742, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2636",
+      "name": "Ritchie Coliseum",
+      "aliases": [
+        "Ritchie Coliseum"
+      ],
+      "lines": [
+        "104",
+        "114",
+        "115",
+        "117",
+        "132"
+      ],
+      "stopIds": [
+        "2636"
+      ],
+      "lat": 38.985037,
+      "lng": -76.936431,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2632",
+      "name": "Baltimore Avenue and Campus Drive",
+      "aliases": [
+        "Baltimore Avenue and Campus Drive"
+      ],
+      "lines": [
+        "104",
+        "114",
+        "117",
+        "132"
+      ],
+      "stopIds": [
+        "2632"
+      ],
+      "lat": 38.9886355,
+      "lng": -76.935,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2652",
+      "name": "Campus Drive and Paint Branch Trail",
+      "aliases": [
+        "Campus Drive and Paint Branch Trail"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2652",
+        "2651"
+      ],
+      "lat": 38.983557,
+      "lng": -76.93077,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2004",
+      "name": "College Park Metro Station - Bay D (-> Discovery District/Riverdale Park Station)",
+      "aliases": [
+        "College Park Metro Station - Bay D (-> Discovery District/Riverdale Park Station)"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2004"
+      ],
+      "lat": 38.963444,
+      "lng": -76.9316408,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2103",
+      "name": "River Road at Anacostia Building",
+      "aliases": [
+        "River Road at Anacostia Building"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2103",
+        "2102"
+      ],
+      "lat": 38.9715874,
+      "lng": -76.9299364,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2105",
+      "name": "River Road and Rivertech Court",
+      "aliases": [
+        "River Road and Rivertech Court"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2105",
+        "2106"
+      ],
+      "lat": 38.9698233,
+      "lng": -76.9269159,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2104",
+      "name": "Anacostia Building",
+      "aliases": [
+        "Anacostia Building"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2104"
+      ],
+      "lat": 38.9715874,
+      "lng": -76.9299364,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2111",
+      "name": "College Park Academy",
+      "aliases": [
+        "College Park Academy"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2111",
+        "2112"
+      ],
+      "lat": 38.9679397,
+      "lng": -76.9273438,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2115",
+      "name": "5600 Rivertech Court",
+      "aliases": [
+        "5600 Rivertech Court"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2115",
+        "2116"
+      ],
+      "lat": 38.9680802,
+      "lng": -76.9307772,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6001",
+      "name": "Riverdale Park Station at 46th Street",
+      "aliases": [
+        "Riverdale Park Station at 46th Street"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "6001"
+      ],
+      "lat": 38.9692498,
+      "lng": -76.9366113,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2138",
+      "name": "5801 University Research Court",
+      "aliases": [
+        "5801 University Research Court"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2138"
+      ],
+      "lat": 38.9691985,
+      "lng": -76.9230649,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2140",
+      "name": "5850 University Research Court",
+      "aliases": [
+        "5850 University Research Court"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2140"
+      ],
+      "lat": 38.9722915,
+      "lng": -76.92230719999999,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2005",
+      "name": "College Park Metro Station - Bay E (-> UMD main campus)",
+      "aliases": [
+        "College Park Metro Station - Bay E (-> UMD main campus)"
+      ],
+      "lines": [
+        "104"
+      ],
+      "stopIds": [
+        "2005"
+      ],
+      "lat": 38.9896967,
+      "lng": -76.93776,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1726",
+      "name": "Glenn L. Martin Wind Tunnel",
+      "aliases": [
+        "Glenn L. Martin Wind Tunnel"
+      ],
+      "lines": [
+        "104",
+        "118",
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "1726"
+      ],
+      "lat": 38.9899413,
+      "lng": -76.9368484,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1102",
+      "name": "A.V. Williams Building",
+      "aliases": [
+        "A.V. Williams Building"
+      ],
+      "lines": [
+        "104",
+        "118",
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "1102"
+      ],
+      "lat": 38.9907707,
+      "lng": -76.9364399,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1106",
+      "name": "Paint Branch Drive and Technology Drive",
+      "aliases": [
+        "Paint Branch Drive and Technology Drive"
+      ],
+      "lines": [
+        "104",
+        "118",
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "1106"
+      ],
+      "lat": 38.9950055,
+      "lng": -76.937407,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1121",
+      "name": "Regents Drive and Paint Branch Drive",
+      "aliases": [
+        "Regents Drive and Paint Branch Drive"
+      ],
+      "lines": [
+        "104",
+        "108",
+        "116",
+        "118",
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "1121",
+        "1122"
+      ],
+      "lat": 38.9936805,
+      "lng": -76.93729139999999,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1125",
+      "name": "Regents Drive at XFINITY Center",
+      "aliases": [
+        "Regents Drive at XFINITY Center"
+      ],
+      "lines": [
+        "104",
+        "108",
+        "116",
+        "118",
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "1125",
+        "1126"
+      ],
+      "lat": 38.9957391,
+      "lng": -76.94180639999999,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1129",
+      "name": "Regents Drive and Farm Drive",
+      "aliases": [
+        "Regents Drive and Farm Drive"
+      ],
+      "lines": [
+        "104",
+        "108",
+        "116",
+        "117",
+        "118",
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "1129",
+        "1130"
+      ],
+      "lat": 38.9913741,
+      "lng": -76.9406806,
+      "linesInfo": [
+        {
+          "id": "104",
+          "name": "COLLEGE PARK METRO / DISCOVERY DISTRICT",
+          "url": "https://transportation.umd.edu/104-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1007",
+      "name": "Stamp Student Union",
+      "aliases": [
+        "Stamp Student Union"
+      ],
+      "lines": [
+        "105",
+        "108",
+        "111",
+        "113",
+        "114",
+        "116",
+        "117",
+        "118",
+        "122",
+        "126",
+        "132",
+        "143"
+      ],
+      "stopIds": [
+        "1007"
+      ],
+      "lat": 38.9881767,
+      "lng": -76.94466779999999,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1531",
+      "name": "Benjamin Building",
+      "aliases": [
+        "Benjamin Building"
+      ],
+      "lines": [
+        "105",
+        "108",
+        "111",
+        "113",
+        "114",
+        "117",
+        "126",
+        "132",
+        "143"
+      ],
+      "stopIds": [
+        "1531"
+      ],
+      "lat": 38.9866483,
+      "lng": -76.94732859999999,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1535",
+      "name": "Art/Sociology Building",
+      "aliases": [
+        "Art/Sociology Building"
+      ],
+      "lines": [
+        "105",
+        "108",
+        "111",
+        "113",
+        "114",
+        "117",
+        "126",
+        "132",
+        "143"
+      ],
+      "stopIds": [
+        "1535"
+      ],
+      "lat": 38.9850486,
+      "lng": -76.94757,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1539",
+      "name": "Wicomico Hall",
+      "aliases": [
+        "Wicomico Hall"
+      ],
+      "lines": [
+        "105",
+        "114",
+        "117",
+        "126",
+        "133",
+        "132"
+      ],
+      "stopIds": [
+        "1539"
+      ],
+      "lat": 38.9837452,
+      "lng": -76.94570499999999,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1543",
+      "name": "Preinkert Drive at Lot MV",
+      "aliases": [
+        "Preinkert Drive at Lot MV"
+      ],
+      "lines": [
+        "105",
+        "114",
+        "117",
+        "126",
+        "133",
+        "132"
+      ],
+      "stopIds": [
+        "1543"
+      ],
+      "lat": 38.9834557,
+      "lng": -76.9451081,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2624",
+      "name": "Graduate Gardens at Lot 22b",
+      "aliases": [
+        "Graduate Gardens at Lot 22b"
+      ],
+      "lines": [
+        "105",
+        "114",
+        "118",
+        "122",
+        "126",
+        "133",
+        "132"
+      ],
+      "stopIds": [
+        "2624"
+      ],
+      "lat": 38.97877,
+      "lng": -76.9416877,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2626",
+      "name": "Guilford Drive at Graduate Gardens",
+      "aliases": [
+        "Guilford Drive at Graduate Gardens"
+      ],
+      "lines": [
+        "105",
+        "114",
+        "118",
+        "122",
+        "126",
+        "133",
+        "132"
+      ],
+      "stopIds": [
+        "2626"
+      ],
+      "lat": 38.97877,
+      "lng": -76.9416877,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2712",
+      "name": "Baltimore Avenue and Hartwick Road",
+      "aliases": [
+        "Baltimore Avenue and Hartwick Road"
+      ],
+      "lines": [
+        "105",
+        "114",
+        "118",
+        "122",
+        "126",
+        "132"
+      ],
+      "stopIds": [
+        "2712"
+      ],
+      "lat": 38.9796102,
+      "lng": -76.93798319999999,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1136",
+      "name": "Regents Drive and Campus Drive",
+      "aliases": [
+        "Regents Drive and Campus Drive"
+      ],
+      "lines": [
+        "105",
+        "115",
+        "117"
+      ],
+      "stopIds": [
+        "1136"
+      ],
+      "lat": 38.9876014,
+      "lng": -76.9404638,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1325",
+      "name": "Atlantic Building Patio",
+      "aliases": [
+        "Atlantic Building Patio"
+      ],
+      "lines": [
+        "105",
+        "115",
+        "133"
+      ],
+      "stopIds": [
+        "1325"
+      ],
+      "lat": 38.9912033,
+      "lng": -76.9431915,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1321",
+      "name": "Yahentamitsi Dining Hall",
+      "aliases": [
+        "Yahentamitsi Dining Hall"
+      ],
+      "lines": [
+        "105",
+        "115",
+        "133"
+      ],
+      "stopIds": [
+        "1321"
+      ],
+      "lat": 38.99125000000001,
+      "lng": -76.9447426,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1317",
+      "name": "Ellicott Hall",
+      "aliases": [
+        "Ellicott Hall"
+      ],
+      "lines": [
+        "105",
+        "115"
+      ],
+      "stopIds": [
+        "1317"
+      ],
+      "lat": 38.9918209,
+      "lng": -76.94666769999999,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1319",
+      "name": "Stadium Drive and Valley Drive",
+      "aliases": [
+        "Stadium Drive and Valley Drive"
+      ],
+      "lines": [
+        "105",
+        "115"
+      ],
+      "stopIds": [
+        "1319"
+      ],
+      "lat": 38.9922844,
+      "lng": -76.948567,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1313",
+      "name": "Denton Hall",
+      "aliases": [
+        "Denton Hall"
+      ],
+      "lines": [
+        "105",
+        "118",
+        "133"
+      ],
+      "stopIds": [
+        "1313"
+      ],
+      "lat": 38.99224540000001,
+      "lng": -76.9499816,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Denton Hall",
+        "oldLat": 53.93409399999999,
+        "oldLng": -1.776569,
+        "oldDist": 3541.8019545249203,
+        "newLat": 38.99224540000001,
+        "newLng": -76.9499816,
+        "newDist": 0.6795511257094522,
+        "formatted": "3854 Stadium Dr, College Park, MD 20742, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2331",
+      "name": "Metzerott Road and Greenmead Drive",
+      "aliases": [
+        "Metzerott Road and Greenmead Drive"
+      ],
+      "lines": [
+        "105",
+        "108"
+      ],
+      "stopIds": [
+        "2331"
+      ],
+      "lat": 39.0009056,
+      "lng": -76.944743,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2322",
+      "name": "Greenmead Drive at Maryland 4-H",
+      "aliases": [
+        "Greenmead Drive at Maryland 4-H"
+      ],
+      "lines": [
+        "105",
+        "116"
+      ],
+      "stopIds": [
+        "2322",
+        "2321"
+      ],
+      "lat": 39.0037571,
+      "lng": -76.9429553,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2305",
+      "name": "Courtyards #500",
+      "aliases": [
+        "Courtyards #500"
+      ],
+      "lines": [
+        "105",
+        "116"
+      ],
+      "stopIds": [
+        "2305"
+      ],
+      "lat": 39.0015247,
+      "lng": -76.9414839,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2325",
+      "name": "Greenmead Drive and Metzerott Road",
+      "aliases": [
+        "Greenmead Drive and Metzerott Road"
+      ],
+      "lines": [
+        "105",
+        "116"
+      ],
+      "stopIds": [
+        "2325"
+      ],
+      "lat": 39.0009056,
+      "lng": -76.944743,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1314",
+      "name": "Stadium Drive and University Boulevard",
+      "aliases": [
+        "Stadium Drive and University Boulevard"
+      ],
+      "lines": [
+        "105",
+        "111",
+        "113",
+        "133",
+        "143"
+      ],
+      "stopIds": [
+        "1314"
+      ],
+      "lat": 38.9925766,
+      "lng": -76.9517613,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1318",
+      "name": "Stadium Drive Garage",
+      "aliases": [
+        "Stadium Drive Garage"
+      ],
+      "lines": [
+        "105",
+        "111",
+        "113",
+        "143"
+      ],
+      "stopIds": [
+        "1318"
+      ],
+      "lat": 38.9908288,
+      "lng": -76.94891249999999,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1322",
+      "name": "Varsity Team House",
+      "aliases": [
+        "Varsity Team House"
+      ],
+      "lines": [
+        "105",
+        "111",
+        "113",
+        "115",
+        "122",
+        "133",
+        "143"
+      ],
+      "stopIds": [
+        "1322"
+      ],
+      "lat": 38.990597,
+      "lng": -76.945493,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1326",
+      "name": "Stadium Drive at Atlantic Building",
+      "aliases": [
+        "Stadium Drive at Atlantic Building"
+      ],
+      "lines": [
+        "105",
+        "111",
+        "113",
+        "115",
+        "122",
+        "133",
+        "143"
+      ],
+      "stopIds": [
+        "1326"
+      ],
+      "lat": 38.9912033,
+      "lng": -76.9431915,
+      "linesInfo": [
+        {
+          "id": "105",
+          "name": "CAMPUS CONNECTOR",
+          "url": "https://transportation.umd.edu/105-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1595",
+      "name": "Campus Drive at Lot 3",
+      "aliases": [
+        "Campus Drive at Lot 3"
+      ],
+      "lines": [
+        "108",
+        "111",
+        "113",
+        "133",
+        "143"
+      ],
+      "stopIds": [
+        "1595"
+      ],
+      "lat": 38.9843452,
+      "lng": -76.9325689,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4011",
+      "name": "Metzerott Road and 36th Avenue",
+      "aliases": [
+        "Metzerott Road and 36th Avenue"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4011",
+        "4012"
+      ],
+      "lat": 39.0015283,
+      "lng": -76.9480652,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4015",
+      "name": "Metzerott Road and Saint Andrews Place",
+      "aliases": [
+        "Metzerott Road and Saint Andrews Place"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4015",
+        "4016"
+      ],
+      "lat": 39.0019861,
+      "lng": -76.9507972,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4019",
+      "name": "Metzerott Road at System Administration",
+      "aliases": [
+        "Metzerott Road at System Administration"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4019"
+      ],
+      "lat": 39.0029391,
+      "lng": -76.9562402,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4023",
+      "name": "Metzerott Road at Archives II",
+      "aliases": [
+        "Metzerott Road at Archives II"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4023",
+        "4024"
+      ],
+      "lat": 39.0029391,
+      "lng": -76.9562402,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4027",
+      "name": "Metzerott Road and Adelphi Road",
+      "aliases": [
+        "Metzerott Road and Adelphi Road"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4027"
+      ],
+      "lat": 39.002432,
+      "lng": -76.96525849999999,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4031",
+      "name": "Metzerott Road and Riggs Road",
+      "aliases": [
+        "Metzerott Road and Riggs Road"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4031"
+      ],
+      "lat": 39.0032236,
+      "lng": -76.9718978,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4035",
+      "name": "Metzerott Road at Presidential Towers",
+      "aliases": [
+        "Metzerott Road at Presidential Towers"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4035"
+      ],
+      "lat": 39.0046961,
+      "lng": -76.9760087,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4039",
+      "name": "Metzerott Road and New Hampshire Avenue",
+      "aliases": [
+        "Metzerott Road and New Hampshire Avenue"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4039",
+        "4040"
+      ],
+      "lat": 39.0042415,
+      "lng": -76.9809008,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4051",
+      "name": "New Hampshire Avenue and Fox Street",
+      "aliases": [
+        "New Hampshire Avenue and Fox Street"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4051"
+      ],
+      "lat": 39.0081803,
+      "lng": -76.9797992,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4055",
+      "name": "New Hampshire Avenue and Adelphi Road",
+      "aliases": [
+        "New Hampshire Avenue and Adelphi Road"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4055",
+        "4056"
+      ],
+      "lat": 39.0113728,
+      "lng": -76.9791001,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4059",
+      "name": "New Hampshire Avenue and Oakview Drive",
+      "aliases": [
+        "New Hampshire Avenue and Oakview Drive"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4059"
+      ],
+      "lat": 39.0153078,
+      "lng": -76.9779696,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4070",
+      "name": "Mount Pisgah Road at Chateau Apartments",
+      "aliases": [
+        "Mount Pisgah Road at Chateau Apartments"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4070"
+      ],
+      "lat": 39.0145847,
+      "lng": -76.9771934,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Mount Pisgah Road at Chateau Apartments",
+        "oldLat": 34.1216079,
+        "oldLng": -85.9559038,
+        "oldDist": 602.5577824690818,
+        "newLat": 39.0145847,
+        "newLng": -76.9771934,
+        "newDist": 2.727688176602484,
+        "formatted": "Mt Pisgah Rd, Silver Spring, MD 20903, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "4036",
+      "name": "Metzerott Road at The Delano Apartments",
+      "aliases": [
+        "Metzerott Road at The Delano Apartments"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4036"
+      ],
+      "lat": 39.0029391,
+      "lng": -76.9562402,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4032",
+      "name": "Metzerott Road and Greenspire Terrace",
+      "aliases": [
+        "Metzerott Road and Greenspire Terrace"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4032"
+      ],
+      "lat": 39.0035367,
+      "lng": -76.97441859999999,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4028",
+      "name": "Metzerott Road and 24th Avenue",
+      "aliases": [
+        "Metzerott Road and 24th Avenue"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4028"
+      ],
+      "lat": 39.002619,
+      "lng": -76.9667628,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4020",
+      "name": "Metzerott Road at UMD Observatory",
+      "aliases": [
+        "Metzerott Road at UMD Observatory"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "4020"
+      ],
+      "lat": 38.9869183,
+      "lng": -76.9425543,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2332",
+      "name": "Metzerott Road and University Boulevard",
+      "aliases": [
+        "Metzerott Road and University Boulevard"
+      ],
+      "lines": [
+        "108"
+      ],
+      "stopIds": [
+        "2332"
+      ],
+      "lat": 39.00040449999999,
+      "lng": -76.9431395,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1113",
+      "name": "Paint Branch Drive at Lot 4b",
+      "aliases": [
+        "Paint Branch Drive at Lot 4b"
+      ],
+      "lines": [
+        "108",
+        "116"
+      ],
+      "stopIds": [
+        "1113",
+        "1114"
+      ],
+      "lat": 38.9972118,
+      "lng": -76.94089989999999,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1109",
+      "name": "Shuttle-UM Base",
+      "aliases": [
+        "Shuttle-UM Base"
+      ],
+      "lines": [
+        "108",
+        "116"
+      ],
+      "stopIds": [
+        "1109",
+        "1110"
+      ],
+      "lat": 38.9869183,
+      "lng": -76.9425543,
+      "linesInfo": [
+        {
+          "id": "108",
+          "name": "ADELPHI",
+          "url": "https://transportation.umd.edu/108-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2687",
+      "name": "University Boulevard and Tulane Drive",
+      "aliases": [
+        "University Boulevard and Tulane Drive"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "2687"
+      ],
+      "lat": 38.9852327,
+      "lng": -76.958935,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4215",
+      "name": "University Boulevard at Adelphi Plaza",
+      "aliases": [
+        "University Boulevard at Adelphi Plaza"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4215"
+      ],
+      "lat": 38.9851521,
+      "lng": -76.9702393,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4219",
+      "name": "University Boulevard at Campus Gardens",
+      "aliases": [
+        "University Boulevard at Campus Gardens"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4219"
+      ],
+      "lat": 38.9850078,
+      "lng": -76.97304729999999,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4223",
+      "name": "University Boulevard and Riggs Road",
+      "aliases": [
+        "University Boulevard and Riggs Road"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4223"
+      ],
+      "lat": 38.9838125,
+      "lng": -76.9793902,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4227",
+      "name": "University Boulevard and 14th Avenue",
+      "aliases": [
+        "University Boulevard and 14th Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4227"
+      ],
+      "lat": 38.9873143,
+      "lng": -76.98478279999999,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4231",
+      "name": "Takoma-Langley Crossroads Transit Center - Bay A",
+      "aliases": [
+        "Takoma-Langley Crossroads Transit Center - Bay A"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4231"
+      ],
+      "lat": 38.9899118,
+      "lng": -76.9877576,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4241",
+      "name": "Merrimac Drive and Lockney Avenue",
+      "aliases": [
+        "Merrimac Drive and Lockney Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4241"
+      ],
+      "lat": 38.9924143,
+      "lng": -76.9921418,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4251",
+      "name": "Carroll Avenue and Chester Street",
+      "aliases": [
+        "Carroll Avenue and Chester Street"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4251"
+      ],
+      "lat": 38.98972699999999,
+      "lng": -76.993636,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4255",
+      "name": "Carroll Avenue and Glenside Drive",
+      "aliases": [
+        "Carroll Avenue and Glenside Drive"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4255"
+      ],
+      "lat": 38.9882283,
+      "lng": -76.99410379999999,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4259",
+      "name": "Carroll Avenue and Garland Avenue",
+      "aliases": [
+        "Carroll Avenue and Garland Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4259",
+        "4260"
+      ],
+      "lat": 38.98609740000001,
+      "lng": -76.996408,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4261",
+      "name": "Carroll Avenue and Flower Avenue",
+      "aliases": [
+        "Carroll Avenue and Flower Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4261"
+      ],
+      "lat": 38.984764,
+      "lng": -76.99853329999999,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4275",
+      "name": "Flower Avenue at Washington Adventist University",
+      "aliases": [
+        "Flower Avenue at Washington Adventist University"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4275",
+        "4276"
+      ],
+      "lat": 38.9860709,
+      "lng": -77.00041159999999,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4279",
+      "name": "Flower Avenue and Kennebec Avenue",
+      "aliases": [
+        "Flower Avenue and Kennebec Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4279",
+        "4280"
+      ],
+      "lat": 38.9896631,
+      "lng": -77.0014494,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4283",
+      "name": "Flower Avenue and Hudson Avenue",
+      "aliases": [
+        "Flower Avenue and Hudson Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4283",
+        "4284"
+      ],
+      "lat": 38.9925607,
+      "lng": -77.0022208,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4287",
+      "name": "Flower Avenue and Domer Avenue",
+      "aliases": [
+        "Flower Avenue and Domer Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4287",
+        "4288"
+      ],
+      "lat": 38.9964562,
+      "lng": -77.003148,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4291",
+      "name": "Flower Avenue and Plymouth Street",
+      "aliases": [
+        "Flower Avenue and Plymouth Street"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4291",
+        "4292"
+      ],
+      "lat": 39.0017062,
+      "lng": -77.00465870000001,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4301",
+      "name": "Wayne Avenue and Sligo Creek Parkway",
+      "aliases": [
+        "Wayne Avenue and Sligo Creek Parkway"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4301"
+      ],
+      "lat": 38.9996585,
+      "lng": -77.01058809999999,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4305",
+      "name": "Wayne Avenue and Dale Drive",
+      "aliases": [
+        "Wayne Avenue and Dale Drive"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4305",
+        "4306"
+      ],
+      "lat": 38.9993087,
+      "lng": -77.017461,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4309",
+      "name": "Wayne Avenue and Fenton Street",
+      "aliases": [
+        "Wayne Avenue and Fenton Street"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4309",
+        "4310"
+      ],
+      "lat": 38.9954137,
+      "lng": -77.0244352,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4320",
+      "name": "Silver Spring Metro Station - Bay 231",
+      "aliases": [
+        "Silver Spring Metro Station - Bay 231"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4320"
+      ],
+      "lat": 38.9896967,
+      "lng": -76.93776,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4302",
+      "name": "Wayne Avenue and Manchester Place",
+      "aliases": [
+        "Wayne Avenue and Manchester Place"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4302"
+      ],
+      "lat": 39.0016217,
+      "lng": -77.0078156,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4272",
+      "name": "Flower Avenue and Carroll Avenue",
+      "aliases": [
+        "Flower Avenue and Carroll Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4272"
+      ],
+      "lat": 38.984764,
+      "lng": -76.99853329999999,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4256",
+      "name": "Carroll Avenue and Anne Street",
+      "aliases": [
+        "Carroll Avenue and Anne Street"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4256"
+      ],
+      "lat": 38.987663,
+      "lng": -76.994553,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4252",
+      "name": "Carroll Avenue and Wildwood Drive",
+      "aliases": [
+        "Carroll Avenue and Wildwood Drive"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4252"
+      ],
+      "lat": 38.9898134,
+      "lng": -76.9935759,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4242",
+      "name": "Merrimac Drive and University Boulevard",
+      "aliases": [
+        "Merrimac Drive and University Boulevard"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4242"
+      ],
+      "lat": 38.9926052,
+      "lng": -76.9916409,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4134",
+      "name": "Takoma-Langley Crossroads Transit Center - Bay D",
+      "aliases": [
+        "Takoma-Langley Crossroads Transit Center - Bay D"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4134"
+      ],
+      "lat": 38.9899118,
+      "lng": -76.9877576,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4228",
+      "name": "University Boulevard and 15th Avenue",
+      "aliases": [
+        "University Boulevard and 15th Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4228"
+      ],
+      "lat": 38.9853724,
+      "lng": -76.9817238,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4224",
+      "name": "University Boulevard and Guilford Road",
+      "aliases": [
+        "University Boulevard and Guilford Road"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4224"
+      ],
+      "lat": 38.9838194,
+      "lng": -76.9760749,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4222",
+      "name": "University Boulevard and 23rd Avenue",
+      "aliases": [
+        "University Boulevard and 23rd Avenue"
+      ],
+      "lines": [
+        "111"
+      ],
+      "stopIds": [
+        "4222"
+      ],
+      "lat": 38.9840485,
+      "lng": -76.9714597,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2688",
+      "name": "University Boulevard at Graduate Hills",
+      "aliases": [
+        "University Boulevard at Graduate Hills"
+      ],
+      "lines": [
+        "111",
+        "118",
+        "133"
+      ],
+      "stopIds": [
+        "2688"
+      ],
+      "lat": 38.9846488,
+      "lng": -76.9573158,
+      "linesInfo": [
+        {
+          "id": "111",
+          "name": "SILVER SPRING",
+          "url": "https://transportation.umd.edu/111-spring"
+        },
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2621",
+      "name": "Adelphi Road at Graduate Hills Apartments",
+      "aliases": [
+        "Adelphi Road at Graduate Hills Apartments"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "2621"
+      ],
+      "lat": 38.9846488,
+      "lng": -76.9573158,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5011",
+      "name": "Adelphi Road and Wells Boulevard",
+      "aliases": [
+        "Adelphi Road and Wells Boulevard"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5011"
+      ],
+      "lat": 38.9789698,
+      "lng": -76.9542479,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5015",
+      "name": "Adelphi Road at Northwestern High School",
+      "aliases": [
+        "Adelphi Road at Northwestern High School"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5015"
+      ],
+      "lat": 38.9747701,
+      "lng": -76.95371759999999,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5027",
+      "name": "Belcrest Road and Toledo Road",
+      "aliases": [
+        "Belcrest Road and Toledo Road"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5027",
+        "5028"
+      ],
+      "lat": 38.9699475,
+      "lng": -76.9540102,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5029",
+      "name": "The Mall at Prince George's",
+      "aliases": [
+        "The Mall at Prince George's"
+      ],
+      "lines": [
+        "113",
+        "133"
+      ],
+      "stopIds": [
+        "5029"
+      ],
+      "lat": 38.9684528,
+      "lng": -76.95738539999999,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5039",
+      "name": "Hyattsville Crossing Metro Station",
+      "aliases": [
+        "Hyattsville Crossing Metro Station"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5039",
+        "5040"
+      ],
+      "lat": 38.9652525,
+      "lng": -76.9563512,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5054",
+      "name": "Queensbury Road and 39th Place",
+      "aliases": [
+        "Queensbury Road and 39th Place"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5054",
+        "5053"
+      ],
+      "lat": 38.9639211,
+      "lng": -76.9501891,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5051",
+      "name": "42nd Avenue and Queensbury Road",
+      "aliases": [
+        "42nd Avenue and Queensbury Road"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5051"
+      ],
+      "lat": 38.9637276,
+      "lng": -76.94622059999999,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5055",
+      "name": "42nd Avenue and Oglethorpe Street",
+      "aliases": [
+        "42nd Avenue and Oglethorpe Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5055"
+      ],
+      "lat": 38.959358,
+      "lng": -76.94653280000001,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5059",
+      "name": "42nd Avenue and Madison Street",
+      "aliases": [
+        "42nd Avenue and Madison Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5059"
+      ],
+      "lat": 38.9576986,
+      "lng": -76.9466808,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "42nd Avenue and Madison Street",
+        "oldLat": 47.6354815,
+        "oldLng": -122.278499,
+        "oldDist": 2320.8255207669904,
+        "newLat": 38.9576986,
+        "newLng": -76.9466808,
+        "newDist": 2.262214242744868,
+        "formatted": "Madison St & 42nd Ave, Hyattsville, MD 20781, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "5063",
+      "name": "42nd Avenue and Jefferson Street",
+      "aliases": [
+        "42nd Avenue and Jefferson Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5063"
+      ],
+      "lat": 38.9549396,
+      "lng": -76.9455389,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5072",
+      "name": "Farragut Street and 42nd Place",
+      "aliases": [
+        "Farragut Street and 42nd Place"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5072"
+      ],
+      "lat": 38.9517527,
+      "lng": -76.9444477,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5076",
+      "name": "Farragut Street and Rhode Island Avenue",
+      "aliases": [
+        "Farragut Street and Rhode Island Avenue"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5076"
+      ],
+      "lat": 38.9516572,
+      "lng": -76.9407691,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5082",
+      "name": "Baltimore Avenue and Gallatin Street",
+      "aliases": [
+        "Baltimore Avenue and Gallatin Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5082"
+      ],
+      "lat": 38.9525703,
+      "lng": -76.94057,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5086",
+      "name": "Baltimore Avenue and Hamilton Street",
+      "aliases": [
+        "Baltimore Avenue and Hamilton Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5086"
+      ],
+      "lat": 38.95348,
+      "lng": -76.9404749,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5090",
+      "name": "Baltimore Avenue and Longfellow Street",
+      "aliases": [
+        "Baltimore Avenue and Longfellow Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5090"
+      ],
+      "lat": 38.9572058,
+      "lng": -76.94005179999999,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5094",
+      "name": "Baltimore Avenue and Oglethorpe Street",
+      "aliases": [
+        "Baltimore Avenue and Oglethorpe Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5094"
+      ],
+      "lat": 38.9594835,
+      "lng": -76.9398018,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5101",
+      "name": "Queensbury Road and 44th Place",
+      "aliases": [
+        "Queensbury Road and 44th Place"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5101"
+      ],
+      "lat": 38.9631932,
+      "lng": -76.940676,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5105",
+      "name": "Queensbury Road and 42nd Place",
+      "aliases": [
+        "Queensbury Road and 42nd Place"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5105"
+      ],
+      "lat": 38.9636603,
+      "lng": -76.9448443,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5045",
+      "name": "Belcrest Road and Queens Chapel Road",
+      "aliases": [
+        "Belcrest Road and Queens Chapel Road"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5045"
+      ],
+      "lat": 38.9639794,
+      "lng": -76.95172920000002,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5030",
+      "name": "Prince George's Community College",
+      "aliases": [
+        "Prince George's Community College"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5030"
+      ],
+      "lat": 38.8884898,
+      "lng": -76.8246186,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5016",
+      "name": "Adelphi Road and Van Buren Street",
+      "aliases": [
+        "Adelphi Road and Van Buren Street"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5016"
+      ],
+      "lat": 38.9754131,
+      "lng": -76.95185649999999,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5012",
+      "name": "Adelphi Road and Wells Parkway",
+      "aliases": [
+        "Adelphi Road and Wells Parkway"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "5012"
+      ],
+      "lat": 38.979572,
+      "lng": -76.954636,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2622",
+      "name": "Adelphi Road and Campus Drive",
+      "aliases": [
+        "Adelphi Road and Campus Drive"
+      ],
+      "lines": [
+        "113"
+      ],
+      "stopIds": [
+        "2622"
+      ],
+      "lat": 38.9856762,
+      "lng": -76.9557166,
+      "linesInfo": [
+        {
+          "id": "113",
+          "name": "HYATTSVILLE",
+          "url": "https://transportation.umd.edu/113-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1005",
+      "name": "Stamp Student Union - Lot HP",
+      "aliases": [
+        "Stamp Student Union - Lot HP"
+      ],
+      "lines": [
+        "114",
+        "132",
+        "128"
+      ],
+      "stopIds": [
+        "1005"
+      ],
+      "lat": 38.9881767,
+      "lng": -76.94466779999999,
+      "linesInfo": [
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        },
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2714",
+      "name": "Baltimore Avenue and Knox Road",
+      "aliases": [
+        "Baltimore Avenue and Knox Road"
+      ],
+      "lines": [
+        "114",
+        "117",
+        "132"
+      ],
+      "stopIds": [
+        "2714"
+      ],
+      "lat": 38.9808549,
+      "lng": -76.93797810000001,
+      "linesInfo": [
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2430",
+      "name": "University View",
+      "aliases": [
+        "University View"
+      ],
+      "lines": [
+        "114",
+        "117"
+      ],
+      "stopIds": [
+        "2430"
+      ],
+      "lat": 38.9922678,
+      "lng": -76.9343607,
+      "linesInfo": [
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "University View",
+        "oldLat": 30.4021362,
+        "oldLng": -91.17399569999999,
+        "oldDist": 1001.0139456273838,
+        "newLat": 38.9922678,
+        "newLng": -76.9343607,
+        "newDist": 0.25472387741424446,
+        "formatted": "8204 Baltimore Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2441",
+      "name": "Baltimore Avenue at The Varsity",
+      "aliases": [
+        "Baltimore Avenue at The Varsity"
+      ],
+      "lines": [
+        "114",
+        "117",
+        "132",
+        "128"
+      ],
+      "stopIds": [
+        "2441"
+      ],
+      "lat": 38.9915932,
+      "lng": -76.9342679,
+      "linesInfo": [
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        },
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Baltimore Avenue at The Varsity",
+        "oldLat": 39.9479386,
+        "oldLng": -75.2234532,
+        "oldDist": 112.88850087232305,
+        "newLat": 38.9915932,
+        "newLng": -76.9342679,
+        "newDist": 0.22878136466961588,
+        "formatted": "8150 Baltimore Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "1721",
+      "name": "Campus Drive at Math Building",
+      "aliases": [
+        "Campus Drive at Math Building"
+      ],
+      "lines": [
+        "114",
+        "115",
+        "116",
+        "117",
+        "132",
+        "128"
+      ],
+      "stopIds": [
+        "1721"
+      ],
+      "lat": 38.9886322,
+      "lng": -76.93919559999999,
+      "linesInfo": [
+        {
+          "id": "114",
+          "name": "UNIVERSITY VIEW",
+          "url": "https://transportation.umd.edu/114-spring"
+        },
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        },
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1302",
+      "name": "Elkton Hall",
+      "aliases": [
+        "Elkton Hall"
+      ],
+      "lines": [
+        "115",
+        "122",
+        "133"
+      ],
+      "stopIds": [
+        "1302",
+        "1301"
+      ],
+      "lat": 38.9923917,
+      "lng": -76.9489353,
+      "linesInfo": [
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1306",
+      "name": "Hagerstown Hall",
+      "aliases": [
+        "Hagerstown Hall"
+      ],
+      "lines": [
+        "115",
+        "122",
+        "133"
+      ],
+      "stopIds": [
+        "1306",
+        "1305"
+      ],
+      "lat": 38.9924323,
+      "lng": -76.9474865,
+      "linesInfo": [
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1309",
+      "name": "La Plata Hall",
+      "aliases": [
+        "La Plata Hall"
+      ],
+      "lines": [
+        "115",
+        "122",
+        "133"
+      ],
+      "stopIds": [
+        "1309",
+        "1310"
+      ],
+      "lat": 38.9924924,
+      "lng": -76.9458894,
+      "linesInfo": [
+        {
+          "id": "115",
+          "name": "ORANGE",
+          "url": "https://transportation.umd.edu/115-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2672",
+      "name": "College Avenue and Yale Avenue",
+      "aliases": [
+        "College Avenue and Yale Avenue"
+      ],
+      "lines": [
+        "116",
+        "122"
+      ],
+      "stopIds": [
+        "2672"
+      ],
+      "lat": 38.9817875,
+      "lng": -76.9362829,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "College Avenue and Yale Avenue",
+        "oldLat": 40.7457655,
+        "oldLng": -111.8593227,
+        "oldDist": 1843.6979377879388,
+        "newLat": 38.9817875,
+        "newLng": -76.9362829,
+        "newDist": 0.5522070801347904,
+        "formatted": "College Ave & Yale Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2667",
+      "name": "Fraternity Row #11",
+      "aliases": [
+        "Fraternity Row #11"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "2667"
+      ],
+      "lat": 38.984421,
+      "lng": -76.9361904,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2663",
+      "name": "Leonardtown Community Center",
+      "aliases": [
+        "Leonardtown Community Center"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "2663"
+      ],
+      "lat": 38.9833794,
+      "lng": -76.9336215,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2661",
+      "name": "Fraternity Row #5",
+      "aliases": [
+        "Fraternity Row #5"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "2661"
+      ],
+      "lat": 38.984421,
+      "lng": -76.9361904,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2659",
+      "name": "Hotel Drive at The Hotel",
+      "aliases": [
+        "Hotel Drive at The Hotel"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "2659"
+      ],
+      "lat": 38.9864822,
+      "lng": -76.9355072,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1522",
+      "name": "Hoff Theater",
+      "aliases": [
+        "Hoff Theater"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "1522"
+      ],
+      "lat": 38.9884874,
+      "lng": -76.9451094,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1524",
+      "name": "Fieldhouse Drive and Stamp Student Union",
+      "aliases": [
+        "Fieldhouse Drive and Stamp Student Union"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "1524"
+      ],
+      "lat": 38.9881767,
+      "lng": -76.94466779999999,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1512",
+      "name": "BioSciences Research Building",
+      "aliases": [
+        "BioSciences Research Building"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "1512"
+      ],
+      "lat": 38.9890321,
+      "lng": -76.9431374,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1134",
+      "name": "Regents Drive and Stadium Drive",
+      "aliases": [
+        "Regents Drive and Stadium Drive"
+      ],
+      "lines": [
+        "116",
+        "117"
+      ],
+      "stopIds": [
+        "1134"
+      ],
+      "lat": 38.9901571,
+      "lng": -76.94070390000002,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        },
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2303",
+      "name": "Courtyards #300",
+      "aliases": [
+        "Courtyards #300"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "2303"
+      ],
+      "lat": 39.0015247,
+      "lng": -76.9414839,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2304",
+      "name": "Courtyards #400",
+      "aliases": [
+        "Courtyards #400"
+      ],
+      "lines": [
+        "116"
+      ],
+      "stopIds": [
+        "2304"
+      ],
+      "lat": 39.0015247,
+      "lng": -76.9414839,
+      "linesInfo": [
+        {
+          "id": "116",
+          "name": "PURPLE",
+          "url": "https://transportation.umd.edu/116-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2612",
+      "name": "College Park Shopping Center",
+      "aliases": [
+        "College Park Shopping Center"
+      ],
+      "lines": [
+        "117"
+      ],
+      "stopIds": [
+        "2612"
+      ],
+      "lat": 38.9803811,
+      "lng": -76.9388069,
+      "linesInfo": [
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2451",
+      "name": "Rhode Island and Navahoe Street",
+      "aliases": [
+        "Rhode Island and Navahoe Street"
+      ],
+      "lines": [
+        "117",
+        "132"
+      ],
+      "stopIds": [
+        "2451"
+      ],
+      "lat": 38.9892789,
+      "lng": -76.92864,
+      "linesInfo": [
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Rhode Island and Navahoe Street",
+        "oldLat": 41.5800945,
+        "oldLng": -71.4774291,
+        "oldDist": 338.8112756792448,
+        "newLat": 38.9892789,
+        "newLng": -76.92864,
+        "newDist": 0.49063204168716185,
+        "formatted": "Navahoe St & Rhode Island Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2449",
+      "name": "University Club Apartments",
+      "aliases": [
+        "University Club Apartments"
+      ],
+      "lines": [
+        "117",
+        "132"
+      ],
+      "stopIds": [
+        "2449"
+      ],
+      "lat": 38.9908866,
+      "lng": -76.9295653,
+      "linesInfo": [
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "University Club Apartments",
+        "oldLat": 42.35275619999999,
+        "oldLng": -83.07121839999999,
+        "oldDist": 396.4487022064466,
+        "newLat": 38.9908866,
+        "newLng": -76.9295653,
+        "newDist": 0.4476982956312328,
+        "formatted": "Park, University Club at College, 4800 Berwyn House Rd Unit 501, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2445",
+      "name": "The Alloy",
+      "aliases": [
+        "The Alloy"
+      ],
+      "lines": [
+        "117",
+        "132"
+      ],
+      "stopIds": [
+        "2445"
+      ],
+      "lat": 38.9922887,
+      "lng": -76.93176129999999,
+      "linesInfo": [
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        },
+        {
+          "id": "132",
+          "name": "THE VARSITY",
+          "url": "https://transportation.umd.edu/132-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1331",
+      "name": "Cambridge Hall",
+      "aliases": [
+        "Cambridge Hall"
+      ],
+      "lines": [
+        "117"
+      ],
+      "stopIds": [
+        "1331"
+      ],
+      "lat": 38.9917298,
+      "lng": -76.9430507,
+      "linesInfo": [
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Cambridge Hall",
+        "oldLat": 30.6205247,
+        "oldLng": -96.31703139999999,
+        "oldDist": 1238.5911378923367,
+        "newLat": 38.9917298,
+        "newLng": -76.9430507,
+        "newDist": 0.316957191731046,
+        "formatted": "Cambridge Hall, 4230 Farm Dr, College Park, MD 20742, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "1332",
+      "name": "Cumberland Hall",
+      "aliases": [
+        "Cumberland Hall"
+      ],
+      "lines": [
+        "117"
+      ],
+      "stopIds": [
+        "1332"
+      ],
+      "lat": 38.9920653,
+      "lng": -76.9438974,
+      "linesInfo": [
+        {
+          "id": "117",
+          "name": "BLUE",
+          "url": "https://transportation.umd.edu/117-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Cumberland Hall",
+        "oldLat": 35.0675912,
+        "oldLng": -78.9274842,
+        "oldDist": 292.3535528326739,
+        "newLat": 38.9920653,
+        "newLng": -76.9438974,
+        "newDist": 0.3679916997635174,
+        "formatted": "4250 Farm Dr, College Park, MD 20742, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "1342",
+      "name": "Alumni Drive at Stadium Drive Garage",
+      "aliases": [
+        "Alumni Drive at Stadium Drive Garage"
+      ],
+      "lines": [
+        "118",
+        "122"
+      ],
+      "stopIds": [
+        "1342"
+      ],
+      "lat": 38.9908288,
+      "lng": -76.94891249999999,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Alumni Drive at Stadium Drive Garage",
+        "oldLat": 41.3756811,
+        "oldLng": -83.6235537,
+        "oldDist": 389.3821674282682,
+        "newLat": 38.9908288,
+        "newLng": -76.94891249999999,
+        "newDist": 0.6040155794247467,
+        "formatted": "4025 Stadium Dr, College Park, MD 20742, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2681",
+      "name": "Graduate Hills at 3424 Tulane Drive",
+      "aliases": [
+        "Graduate Hills at 3424 Tulane Drive"
+      ],
+      "lines": [
+        "118",
+        "133"
+      ],
+      "stopIds": [
+        "2681"
+      ],
+      "lat": 38.9846488,
+      "lng": -76.9573158,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2683",
+      "name": "Graduate Hills at 3410 Tulane Drive",
+      "aliases": [
+        "Graduate Hills at 3410 Tulane Drive"
+      ],
+      "lines": [
+        "118",
+        "133"
+      ],
+      "stopIds": [
+        "2683"
+      ],
+      "lat": 38.9846488,
+      "lng": -76.9573158,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2685",
+      "name": "Graduate Hills at 3404 Tulane Drive",
+      "aliases": [
+        "Graduate Hills at 3404 Tulane Drive"
+      ],
+      "lines": [
+        "118",
+        "133"
+      ],
+      "stopIds": [
+        "2685"
+      ],
+      "lat": 38.9846488,
+      "lng": -76.9573158,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1592",
+      "name": "Campus Drive at UMGC Lot 19",
+      "aliases": [
+        "Campus Drive at UMGC Lot 19"
+      ],
+      "lines": [
+        "118",
+        "133"
+      ],
+      "stopIds": [
+        "1592"
+      ],
+      "lat": 38.9864552,
+      "lng": -76.95399309999999,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1596",
+      "name": "University Methodist Church",
+      "aliases": [
+        "University Methodist Church"
+      ],
+      "lines": [
+        "118",
+        "133"
+      ],
+      "stopIds": [
+        "1596"
+      ],
+      "lat": 38.9842373,
+      "lng": -76.9512082,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "University Methodist Church",
+        "oldLat": 29.5644779,
+        "oldLng": -98.5852146,
+        "oldDist": 1391.9646714525613,
+        "newLat": 38.9842373,
+        "newLng": -76.9512082,
+        "newDist": 0.8148217264289921,
+        "formatted": "3621 Campus Dr, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "1561",
+      "name": "Van Munching Hall",
+      "aliases": [
+        "Van Munching Hall"
+      ],
+      "lines": [
+        "118"
+      ],
+      "stopIds": [
+        "1561"
+      ],
+      "lat": 38.9831084,
+      "lng": -76.94707009999999,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1565",
+      "name": "LDS Institute of Religion",
+      "aliases": [
+        "LDS Institute of Religion"
+      ],
+      "lines": [
+        "118"
+      ],
+      "stopIds": [
+        "1565"
+      ],
+      "lat": 38.981934,
+      "lng": -76.94737099999999,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "LDS Institute of Religion",
+        "oldLat": 40.7598154,
+        "oldLng": -111.8389764,
+        "oldDist": 1842.5117999368501,
+        "newLat": 38.981934,
+        "newLng": -76.94737099999999,
+        "newDist": 0.7443909192830511,
+        "formatted": "7601 Mowatt Ln, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "1570",
+      "name": "South Campus Commons 1 & 2",
+      "aliases": [
+        "South Campus Commons 1 & 2"
+      ],
+      "lines": [
+        "118"
+      ],
+      "stopIds": [
+        "1570"
+      ],
+      "lat": 38.9819358,
+      "lng": -76.9429256,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1722",
+      "name": "Campus Drive at Engineering Fields",
+      "aliases": [
+        "Campus Drive at Engineering Fields"
+      ],
+      "lines": [
+        "118",
+        "126",
+        "133",
+        "128"
+      ],
+      "stopIds": [
+        "1722"
+      ],
+      "lat": 38.9878288,
+      "lng": -76.93729859999999,
+      "linesInfo": [
+        {
+          "id": "118",
+          "name": "GOLD",
+          "url": "https://transportation.umd.edu/118-spring"
+        },
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        },
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2674",
+      "name": "College Avenue and Princeton Avenue",
+      "aliases": [
+        "College Avenue and Princeton Avenue"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "2674"
+      ],
+      "lat": 38.9814537,
+      "lng": -76.9347933,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "College Avenue and Princeton Avenue",
+        "oldLat": 37.65575,
+        "oldLng": -121.0076,
+        "oldDist": 2367.0854679839294,
+        "newLat": 38.9814537,
+        "newLng": -76.9347933,
+        "newDist": 0.5914100050639748,
+        "formatted": "College Ave & Princeton Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2676",
+      "name": "College Avenue and Hopkins Avenue",
+      "aliases": [
+        "College Avenue and Hopkins Avenue"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "2676"
+      ],
+      "lat": 38.9811183,
+      "lng": -76.93330499999999,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "College Avenue and Hopkins Avenue",
+        "oldLat": 42.2768134,
+        "oldLng": -83.2897986,
+        "oldDist": 402.95542029258587,
+        "newLat": 38.9811183,
+        "newLng": -76.93330499999999,
+        "newDist": 0.6391880346935508,
+        "formatted": "College Ave & Hopkins Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "2678",
+      "name": "College Avenue and Rhode Island Avenue",
+      "aliases": [
+        "College Avenue and Rhode Island Avenue"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "2678"
+      ],
+      "lat": 38.9246886,
+      "lng": -76.9854594,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2691",
+      "name": "Rhode Island Avenue and Knox Road",
+      "aliases": [
+        "Rhode Island Avenue and Knox Road"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "2691"
+      ],
+      "lat": 38.9796074,
+      "lng": -76.93231569999999,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2693",
+      "name": "Knox Road and Hopkins Avenue",
+      "aliases": [
+        "Knox Road and Hopkins Avenue"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "2693"
+      ],
+      "lat": 38.9799339,
+      "lng": -76.9337451,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2695",
+      "name": "Knox Road and Princeton Avenue",
+      "aliases": [
+        "Knox Road and Princeton Avenue"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "2695"
+      ],
+      "lat": 38.9802709,
+      "lng": -76.935232,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2697",
+      "name": "Knox Road and Yale Avenue",
+      "aliases": [
+        "Knox Road and Yale Avenue"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "2697"
+      ],
+      "lat": 38.9806071,
+      "lng": -76.9367067,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1579",
+      "name": "South Campus Commons 3 and 4",
+      "aliases": [
+        "South Campus Commons 3 and 4"
+      ],
+      "lines": [
+        "122"
+      ],
+      "stopIds": [
+        "1579"
+      ],
+      "lat": 38.98221119999999,
+      "lng": -76.9428806,
+      "linesInfo": [
+        {
+          "id": "122",
+          "name": "GREEN",
+          "url": "https://transportation.umd.edu/122-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5211",
+      "name": "Baltimore Avenue at University Park Town Hall",
+      "aliases": [
+        "Baltimore Avenue at University Park Town Hall"
+      ],
+      "lines": [
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "5211"
+      ],
+      "lat": 38.9723343,
+      "lng": -76.9383491,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5215",
+      "name": "Baltimore Avenue at Riverdale Park Station",
+      "aliases": [
+        "Baltimore Avenue at Riverdale Park Station"
+      ],
+      "lines": [
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "5215",
+        "5216"
+      ],
+      "lat": 38.9692498,
+      "lng": -76.9366113,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5219",
+      "name": "Baltimore Avenue and Underwood Street",
+      "aliases": [
+        "Baltimore Avenue and Underwood Street"
+      ],
+      "lines": [
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "5219"
+      ],
+      "lat": 38.968811,
+      "lng": -76.9384481,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6012",
+      "name": "East-West Highway and West Beale Circle",
+      "aliases": [
+        "East-West Highway and West Beale Circle"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6012"
+      ],
+      "lat": 38.9642545,
+      "lng": -76.93820389999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6022",
+      "name": "East-West Highway and Taylor Road",
+      "aliases": [
+        "East-West Highway and Taylor Road"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6022",
+        "6021"
+      ],
+      "lat": 38.9625409,
+      "lng": -76.92919719999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6032",
+      "name": "Riverdale Road and 63rd Avenue",
+      "aliases": [
+        "Riverdale Road and 63rd Avenue"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6032"
+      ],
+      "lat": 38.9610683,
+      "lng": -76.9096845,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6036",
+      "name": "Riverdale Road and Eastpine Drive",
+      "aliases": [
+        "Riverdale Road and Eastpine Drive"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6036"
+      ],
+      "lat": 38.9585857,
+      "lng": -76.9068249,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Riverdale Road and Eastpine Drive",
+        "oldLat": 39.9202875,
+        "oldLng": -104.8886615,
+        "oldDist": 1486.4505690734081,
+        "newLat": 38.9585857,
+        "newLng": -76.9068249,
+        "newDist": 2.716980297107245,
+        "formatted": "Eastpine Dr, East Riverdale, MD 20737, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "6040",
+      "name": "Riverdale Road and 67th Avenue",
+      "aliases": [
+        "Riverdale Road and 67th Avenue"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6040"
+      ],
+      "lat": 38.9618484,
+      "lng": -76.90251769999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6044",
+      "name": "Riverdale Road and Auburn Avenue",
+      "aliases": [
+        "Riverdale Road and Auburn Avenue"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6044"
+      ],
+      "lat": 38.9643579,
+      "lng": -76.89685589999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6048",
+      "name": "Riverdale Road and Martins Lane",
+      "aliases": [
+        "Riverdale Road and Martins Lane"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6048"
+      ],
+      "lat": 38.9632169,
+      "lng": -76.88904749999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6052",
+      "name": "Riverdale Road and Finns Lane",
+      "aliases": [
+        "Riverdale Road and Finns Lane"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6052"
+      ],
+      "lat": 38.9621863,
+      "lng": -76.8871313,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6056",
+      "name": "Riverdale Road and Lamont Drive",
+      "aliases": [
+        "Riverdale Road and Lamont Drive"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6056"
+      ],
+      "lat": 38.9613004,
+      "lng": -76.88240499999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6060",
+      "name": "Riverdale Road at Fountain Club Apartments",
+      "aliases": [
+        "Riverdale Road at Fountain Club Apartments"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6060"
+      ],
+      "lat": 38.9611463,
+      "lng": -76.9059193,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6064",
+      "name": "Riverdale Road and Mahoney Drive",
+      "aliases": [
+        "Riverdale Road and Mahoney Drive"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6064"
+      ],
+      "lat": 38.9595377,
+      "lng": -76.8770182,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6068",
+      "name": "Riverdale Road at Heritage Square Apartments",
+      "aliases": [
+        "Riverdale Road at Heritage Square Apartments"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6068"
+      ],
+      "lat": 38.9611463,
+      "lng": -76.9059193,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6072",
+      "name": "Annapolis Road and Riverdale Road",
+      "aliases": [
+        "Annapolis Road and Riverdale Road"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6072"
+      ],
+      "lat": 38.9558493,
+      "lng": -76.87257079999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6082",
+      "name": "Harkins Road and Annapolis Road",
+      "aliases": [
+        "Harkins Road and Annapolis Road"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6082"
+      ],
+      "lat": 38.9527082,
+      "lng": -76.8785658,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6090",
+      "name": "Harkins Road and Ellin Road",
+      "aliases": [
+        "Harkins Road and Ellin Road"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6090"
+      ],
+      "lat": 38.9497314,
+      "lng": -76.8718422,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6100",
+      "name": "New Carrollton Metro Station - Bay T6",
+      "aliases": [
+        "New Carrollton Metro Station - Bay T6"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6100"
+      ],
+      "lat": 38.9657249,
+      "lng": -76.88024829999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6112",
+      "name": "85th Avenue at Lenox Court Apartments",
+      "aliases": [
+        "85th Avenue at Lenox Court Apartments"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6112"
+      ],
+      "lat": 38.9896967,
+      "lng": -76.93776,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6116",
+      "name": "85th Avenue at Carrollton Manor Apartments",
+      "aliases": [
+        "85th Avenue at Carrollton Manor Apartments"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6116"
+      ],
+      "lat": 38.9573086,
+      "lng": -76.8682192,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6120",
+      "name": "85th Avenue and Longfellow Street",
+      "aliases": [
+        "85th Avenue and Longfellow Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6120"
+      ],
+      "lat": 38.9595405,
+      "lng": -76.8698197,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6124",
+      "name": "85th Avenue and Legation Street",
+      "aliases": [
+        "85th Avenue and Legation Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6124"
+      ],
+      "lat": 38.9620809,
+      "lng": -77.0705008,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6132",
+      "name": "Westbrook Drive and Madison Street",
+      "aliases": [
+        "Westbrook Drive and Madison Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6132"
+      ],
+      "lat": 38.962334,
+      "lng": -76.870201,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6136",
+      "name": "Westbrook Drive and Oglethorpe Street",
+      "aliases": [
+        "Westbrook Drive and Oglethorpe Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6136"
+      ],
+      "lat": 38.96420699999999,
+      "lng": -76.871506,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6140",
+      "name": "Westbrook Drive and Powhatan Street",
+      "aliases": [
+        "Westbrook Drive and Powhatan Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6140"
+      ],
+      "lat": 38.9655746,
+      "lng": -76.8735379,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6145",
+      "name": "Westbrook Drive and Lamont Drive",
+      "aliases": [
+        "Westbrook Drive and Lamont Drive"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6145"
+      ],
+      "lat": 38.9655783,
+      "lng": -76.88044579999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6152",
+      "name": "Westbrook Drive and Larchwood Street",
+      "aliases": [
+        "Westbrook Drive and Larchwood Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6152"
+      ],
+      "lat": 38.9680277,
+      "lng": -76.878623,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6156",
+      "name": "Westbrook Drive and Carrollton Parkway",
+      "aliases": [
+        "Westbrook Drive and Carrollton Parkway"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6156"
+      ],
+      "lat": 38.9701793,
+      "lng": -76.8776915,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Westbrook Drive and Carrollton Parkway",
+        "oldLat": 33.0392303,
+        "oldLng": -96.9442825,
+        "oldDist": 1188.2388193734928,
+        "newLat": 38.9701793,
+        "newLng": -76.8776915,
+        "newDist": 3.4968526428944715,
+        "formatted": "Carrollton Pkwy, New Carrollton, MD 20784, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "6160",
+      "name": "Westbrook Drive and Quentin Street",
+      "aliases": [
+        "Westbrook Drive and Quentin Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6160"
+      ],
+      "lat": 38.9701426,
+      "lng": -76.8825697,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Westbrook Drive and Quentin Street",
+        "oldLat": 55.8327261,
+        "oldLng": -4.2840336,
+        "oldDist": 3413.474733366441,
+        "newLat": 38.9701426,
+        "newLng": -76.8825697,
+        "newDist": 3.2577244469289406,
+        "formatted": "Quentin St, New Carrollton, MD 20784, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "6164",
+      "name": "Westbrook Drive and Donoghue Drive",
+      "aliases": [
+        "Westbrook Drive and Donoghue Drive"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6164"
+      ],
+      "lat": 38.975196,
+      "lng": -76.8802993,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6171",
+      "name": "Good Luck Road at Lamont Elementary School",
+      "aliases": [
+        "Good Luck Road at Lamont Elementary School"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6171"
+      ],
+      "lat": 38.9741872,
+      "lng": -76.8834442,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6175",
+      "name": "Good Luck Road and Nashville Road",
+      "aliases": [
+        "Good Luck Road and Nashville Road"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6175"
+      ],
+      "lat": 38.97459310000001,
+      "lng": -76.8865521,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6179",
+      "name": "Good Luck Road and Ian Street",
+      "aliases": [
+        "Good Luck Road and Ian Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6179"
+      ],
+      "lat": 38.9724441,
+      "lng": -76.8915653,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6191",
+      "name": "Auburn Avenue and Chestnut Avenue",
+      "aliases": [
+        "Auburn Avenue and Chestnut Avenue"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6191"
+      ],
+      "lat": 38.971489,
+      "lng": -76.893665,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6193",
+      "name": "Auburn Avenue and 3rd Street",
+      "aliases": [
+        "Auburn Avenue and 3rd Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6193"
+      ],
+      "lat": 38.9689826,
+      "lng": -76.8948432,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Auburn Avenue and 3rd Street",
+        "oldLat": 33.7537814,
+        "oldLng": -84.376547,
+        "oldDist": 549.3170200937687,
+        "newLat": 38.9689826,
+        "newLng": -76.8948432,
+        "newDist": 2.7133142573207563,
+        "formatted": "3rd St & Auburn Ave, East Riverdale, MD 20737, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "6195",
+      "name": "Auburn Avenue and 1st Street",
+      "aliases": [
+        "Auburn Avenue and 1st Street"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6195"
+      ],
+      "lat": 38.96637,
+      "lng": -76.895996,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Auburn Avenue and 1st Street",
+        "oldLat": 47.3081655,
+        "oldLng": -122.2281591,
+        "oldDist": 2319.396607907985,
+        "newLat": 38.96637,
+        "newLng": -76.895996,
+        "newDist": 2.7622327935667195,
+        "formatted": "Auburn Av & 1 St, East Riverdale, MD 20737, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "6197",
+      "name": "Auburn Avenue and Riverdale Road",
+      "aliases": [
+        "Auburn Avenue and Riverdale Road"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6197"
+      ],
+      "lat": 38.9643579,
+      "lng": -76.89685589999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6043",
+      "name": "Riverdale Road at Wildercroft Shopping Center",
+      "aliases": [
+        "Riverdale Road at Wildercroft Shopping Center"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6043"
+      ],
+      "lat": 38.9611463,
+      "lng": -76.9059193,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6039",
+      "name": "Riverdale Road and 67th Court",
+      "aliases": [
+        "Riverdale Road and 67th Court"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6039"
+      ],
+      "lat": 38.9618484,
+      "lng": -76.90251769999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6035",
+      "name": "Riverdale Road and 64th Avenue",
+      "aliases": [
+        "Riverdale Road and 64th Avenue"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6035"
+      ],
+      "lat": 38.9611027,
+      "lng": -76.9076584,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "6031",
+      "name": "Riverdale Road and 62nd Place",
+      "aliases": [
+        "Riverdale Road and 62nd Place"
+      ],
+      "lines": [
+        "126"
+      ],
+      "stopIds": [
+        "6031"
+      ],
+      "lat": 38.9610074,
+      "lng": -76.91067679999999,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5224",
+      "name": "Baltimore Avenue and Sheridan Street",
+      "aliases": [
+        "Baltimore Avenue and Sheridan Street"
+      ],
+      "lines": [
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "5224"
+      ],
+      "lat": 38.9658147,
+      "lng": -76.9389118,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5220",
+      "name": "Baltimore Avenue at National Guard Armory",
+      "aliases": [
+        "Baltimore Avenue at National Guard Armory"
+      ],
+      "lines": [
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "5220"
+      ],
+      "lat": 38.997719,
+      "lng": -76.9315545,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5212",
+      "name": "Baltimore Avenue and Amherst Road",
+      "aliases": [
+        "Baltimore Avenue and Amherst Road"
+      ],
+      "lines": [
+        "126",
+        "133"
+      ],
+      "stopIds": [
+        "5212"
+      ],
+      "lat": 38.9730127,
+      "lng": -76.9379002,
+      "linesInfo": [
+        {
+          "id": "126",
+          "name": "NEW CARROLTON",
+          "url": "https://transportation.umd.edu/126-spring"
+        },
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5252",
+      "name": "America Boulevard at Safeway",
+      "aliases": [
+        "America Boulevard at Safeway"
+      ],
+      "lines": [
+        "133"
+      ],
+      "stopIds": [
+        "5252"
+      ],
+      "lat": 38.9681812,
+      "lng": -76.9521907,
+      "linesInfo": [
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "5256",
+      "name": "America Boulevard at Regal Cinemas Hyattsville",
+      "aliases": [
+        "America Boulevard at Regal Cinemas Hyattsville"
+      ],
+      "lines": [
+        "133"
+      ],
+      "stopIds": [
+        "5256"
+      ],
+      "lat": 38.968613,
+      "lng": -76.95195,
+      "linesInfo": [
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2627",
+      "name": "Guilford Drive and Rowalt Drive",
+      "aliases": [
+        "Guilford Drive and Rowalt Drive"
+      ],
+      "lines": [
+        "133"
+      ],
+      "stopIds": [
+        "2627"
+      ],
+      "lat": 38.9781291,
+      "lng": -76.939391,
+      "linesInfo": [
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1544",
+      "name": "South Campus Commons 5 and 6",
+      "aliases": [
+        "South Campus Commons 5 and 6"
+      ],
+      "lines": [
+        "133"
+      ],
+      "stopIds": [
+        "1544"
+      ],
+      "lat": 38.9827818,
+      "lng": -76.94462519999999,
+      "linesInfo": [
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1540",
+      "name": "Preinkert Drive at Lot A",
+      "aliases": [
+        "Preinkert Drive at Lot A"
+      ],
+      "lines": [
+        "133"
+      ],
+      "stopIds": [
+        "1540"
+      ],
+      "lat": 38.9834557,
+      "lng": -76.9451081,
+      "linesInfo": [
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1536",
+      "name": "Somerset Hall",
+      "aliases": [
+        "Somerset Hall"
+      ],
+      "lines": [
+        "133"
+      ],
+      "stopIds": [
+        "1536"
+      ],
+      "lat": 38.9850776,
+      "lng": -76.9455777,
+      "linesInfo": [
+        {
+          "id": "133",
+          "name": "GROCERY SHOPPING SHUTTLE",
+          "url": "https://transportation.umd.edu/133-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2442",
+      "name": "Baltimore Avenue and Lakeland Road",
+      "aliases": [
+        "Baltimore Avenue and Lakeland Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2442"
+      ],
+      "lat": 38.9899365,
+      "lng": -76.9344545,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2440",
+      "name": "Baltimore Avenue and Berwyn House Road",
+      "aliases": [
+        "Baltimore Avenue and Berwyn House Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2440"
+      ],
+      "lat": 38.9927774,
+      "lng": -76.933179,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2422",
+      "name": "Baltimore Avenue and Quebec Street",
+      "aliases": [
+        "Baltimore Avenue and Quebec Street"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2422",
+        "2421"
+      ],
+      "lat": 38.9946745,
+      "lng": -76.9322182,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2420",
+      "name": "Baltimore Avenue and Berwyn Road",
+      "aliases": [
+        "Baltimore Avenue and Berwyn Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2420"
+      ],
+      "lat": 38.9956492,
+      "lng": -76.9318596,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2152",
+      "name": "Greenbelt Road and 48th Avenue",
+      "aliases": [
+        "Greenbelt Road and 48th Avenue"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2152"
+      ],
+      "lat": 38.9982507,
+      "lng": -76.92925819999999,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3012",
+      "name": "Rhode Island Avenue and University Boulevard",
+      "aliases": [
+        "Rhode Island Avenue and University Boulevard"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3012"
+      ],
+      "lat": 38.99913600000001,
+      "lng": -76.9254914,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3014",
+      "name": "Rhode Island Avenue and Apache Street",
+      "aliases": [
+        "Rhode Island Avenue and Apache Street"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3014"
+      ],
+      "lat": 38.9246886,
+      "lng": -76.9854594,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3016",
+      "name": "Rhode Island Avenue and Cherokee Street",
+      "aliases": [
+        "Rhode Island Avenue and Cherokee Street"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3016"
+      ],
+      "lat": 39.0026078,
+      "lng": -76.92444069999999,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Rhode Island Avenue and Cherokee Street",
+        "oldLat": 38.5932824,
+        "oldLng": -90.2254644,
+        "oldDist": 715.4860577030587,
+        "newLat": 39.0026078,
+        "newLng": -76.92444069999999,
+        "newDist": 1.1434022353278293,
+        "formatted": "Cherokee St & Rhode Island Ave, College Park, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "3020",
+      "name": "Rhode Island Avenue and Fox Street",
+      "aliases": [
+        "Rhode Island Avenue and Fox Street"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3020"
+      ],
+      "lat": 38.9246886,
+      "lng": -76.9854594,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3022",
+      "name": "Rhode Island Avenue and Kenesaw Street",
+      "aliases": [
+        "Rhode Island Avenue and Kenesaw Street"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3022"
+      ],
+      "lat": 39.0087055,
+      "lng": -76.92280219999999,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3024",
+      "name": "Rhode Island Avenue and Hollywood Road",
+      "aliases": [
+        "Rhode Island Avenue and Hollywood Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3024"
+      ],
+      "lat": 39.0104554,
+      "lng": -76.92233159999999,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3028",
+      "name": "Rhode Island Avenue at Hollywood Shopping Center",
+      "aliases": [
+        "Rhode Island Avenue at Hollywood Shopping Center"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3028"
+      ],
+      "lat": 39.0144183,
+      "lng": -76.9205501,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3042",
+      "name": "Edgewood Road and Rhode Island Avenue",
+      "aliases": [
+        "Edgewood Road and Rhode Island Avenue"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3042"
+      ],
+      "lat": 38.9246886,
+      "lng": -76.9854594,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3046",
+      "name": "Edgewood Road and 49th Avenue",
+      "aliases": [
+        "Edgewood Road and 49th Avenue"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3046"
+      ],
+      "lat": 39.0159675,
+      "lng": -76.9244875,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3051",
+      "name": "Baltimore Avenue and Cherry Hill Road",
+      "aliases": [
+        "Baltimore Avenue and Cherry Hill Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3051"
+      ],
+      "lat": 39.0143899,
+      "lng": -76.9278154,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3055",
+      "name": "Baltimore Avenue and Hollywood Road",
+      "aliases": [
+        "Baltimore Avenue and Hollywood Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3055"
+      ],
+      "lat": 39.0114798,
+      "lng": -76.9284964,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3060",
+      "name": "Mazza GrandMarc",
+      "aliases": [
+        "Mazza GrandMarc"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3060"
+      ],
+      "lat": 39.0108954,
+      "lng": -76.93072219999999,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3063",
+      "name": "Baltimore Avenue and Indian Lane",
+      "aliases": [
+        "Baltimore Avenue and Indian Lane"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3063"
+      ],
+      "lat": 39.0088547,
+      "lng": -76.929242,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3067",
+      "name": "Baltimore Avenue and Erie Street",
+      "aliases": [
+        "Baltimore Avenue and Erie Street"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3067"
+      ],
+      "lat": 39.0069859,
+      "lng": -76.9297504,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3071",
+      "name": "Baltimore Avenue and Cherokee Street",
+      "aliases": [
+        "Baltimore Avenue and Cherokee Street"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "3071"
+      ],
+      "lat": 39.003991,
+      "lng": -76.9305342,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2415",
+      "name": "Baltimore Avenue and Metzerott Road",
+      "aliases": [
+        "Baltimore Avenue and Metzerott Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2415"
+      ],
+      "lat": 38.9984143,
+      "lng": -76.9315857,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2419",
+      "name": "Baltimore Ave and Berwyn Road",
+      "aliases": [
+        "Baltimore Ave and Berwyn Road"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2419"
+      ],
+      "lat": 38.9956492,
+      "lng": -76.9318596,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2439",
+      "name": "Baltimore Avenue at University View",
+      "aliases": [
+        "Baltimore Avenue at University View"
+      ],
+      "lines": [
+        "128"
+      ],
+      "stopIds": [
+        "2439"
+      ],
+      "lat": 38.9922678,
+      "lng": -76.9343607,
+      "linesInfo": [
+        {
+          "id": "128",
+          "name": "MGM/TEMPO VIA NORTH COLLEGE PARK",
+          "url": "https://transportation.umd.edu/128-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "1004",
+      "name": "Mowatt Lane Garage",
+      "aliases": [
+        "Mowatt Lane Garage"
+      ],
+      "lines": [
+        "141",
+        "142"
+      ],
+      "stopIds": [
+        "1004"
+      ],
+      "lat": 38.9822177,
+      "lng": -76.9469606,
+      "linesInfo": [
+        {
+          "id": "141",
+          "name": "GAITHERSBURG PARK & RIDE",
+          "url": "https://transportation.umd.edu/141-spring"
+        },
+        {
+          "id": "142",
+          "name": "COLUMBIA PARK & RIDE",
+          "url": "https://transportation.umd.edu/142-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "4999",
+      "name": "West Diamond Avenue Park & Ride Lot",
+      "aliases": [
+        "West Diamond Avenue Park & Ride Lot"
+      ],
+      "lines": [
+        "141"
+      ],
+      "stopIds": [
+        "4999"
+      ],
+      "lat": 38.9896967,
+      "lng": -76.93776,
+      "linesInfo": [
+        {
+          "id": "141",
+          "name": "GAITHERSBURG PARK & RIDE",
+          "url": "https://transportation.umd.edu/141-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3999",
+      "name": "Broken Land Park & Ride East Lot",
+      "aliases": [
+        "Broken Land Park & Ride East Lot"
+      ],
+      "lines": [
+        "142"
+      ],
+      "stopIds": [
+        "3999"
+      ],
+      "lat": 39.1741334,
+      "lng": -76.84921299999999,
+      "linesInfo": [
+        {
+          "id": "142",
+          "name": "COLUMBIA PARK & RIDE",
+          "url": "https://transportation.umd.edu/142-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "2156",
+      "name": "Greenbelt Road at Severn Building",
+      "aliases": [
+        "Greenbelt Road at Severn Building"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "2156",
+        "2155"
+      ],
+      "lat": 38.99663899999999,
+      "lng": -76.922612,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3212",
+      "name": "Greenbelt Road and Greenbelt Station Parkway",
+      "aliases": [
+        "Greenbelt Road and Greenbelt Station Parkway"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3212",
+        "3211"
+      ],
+      "lat": 38.9981847,
+      "lng": -76.9180032,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3216",
+      "name": "Greenbelt Road and 60th Avenue",
+      "aliases": [
+        "Greenbelt Road and 60th Avenue"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3216"
+      ],
+      "lat": 38.9980421,
+      "lng": -76.9120487,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3221",
+      "name": "60th Avenue and Greenbelt Road",
+      "aliases": [
+        "60th Avenue and Greenbelt Road"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3221",
+        "3222"
+      ],
+      "lat": 38.9980421,
+      "lng": -76.9120487,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3225",
+      "name": "60th Avenue and Ruatan Street",
+      "aliases": [
+        "60th Avenue and Ruatan Street"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3225"
+      ],
+      "lat": 38.9946761,
+      "lng": -76.91149589999999,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3231",
+      "name": "Cunningham Drive and Pontiac Street",
+      "aliases": [
+        "Cunningham Drive and Pontiac Street"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3231"
+      ],
+      "lat": 38.992374,
+      "lng": -76.91313199999999,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3242",
+      "name": "Pontiac Street and 63rd Avenue",
+      "aliases": [
+        "Pontiac Street and 63rd Avenue"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3242",
+        "3241"
+      ],
+      "lat": 38.9910733,
+      "lng": -76.9078995,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3250",
+      "name": "Westchester Park Circle",
+      "aliases": [
+        "Westchester Park Circle"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3250"
+      ],
+      "lat": 38.9914539,
+      "lng": -76.9024771,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Westchester Park Circle",
+        "oldLat": 41.038624,
+        "oldLng": -73.7717812,
+        "oldDist": 219.31339139001017,
+        "newLat": 38.9914539,
+        "newLng": -76.9024771,
+        "newDist": 1.8986956802338517,
+        "formatted": "Westchester Park Dr, Maryland, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "3258",
+      "name": "Ridge Road and Ivy Lane",
+      "aliases": [
+        "Ridge Road and Ivy Lane"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3258"
+      ],
+      "lat": 39.0077806,
+      "lng": -76.8908146,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Ridge Road and Ivy Lane",
+        "oldLat": 34.0231319,
+        "oldLng": -84.27660209999999,
+        "oldDist": 532.4693562253411,
+        "newLat": 39.0077806,
+        "newLng": -76.8908146,
+        "newDist": 2.8135089409266674,
+        "formatted": "Ridge Rd & Ivy Ln, Greenbelt, MD 20770, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "3262",
+      "name": "Ivy Lane and Lastner Lane",
+      "aliases": [
+        "Ivy Lane and Lastner Lane"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3262"
+      ],
+      "lat": 39.0073943,
+      "lng": -76.8887139,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3266",
+      "name": "Lastner Lane and Julian Court",
+      "aliases": [
+        "Lastner Lane and Julian Court"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3266",
+        "3265"
+      ],
+      "lat": 39.0090318,
+      "lng": -76.8854679,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3270",
+      "name": "Ridge Road and Research Road",
+      "aliases": [
+        "Ridge Road and Research Road"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3270",
+        "3269"
+      ],
+      "lat": 39.020556,
+      "lng": -76.8776166,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Ridge Road and Research Road",
+        "oldLat": -34.8194413,
+        "oldLng": 138.6401708,
+        "oldDist": 10462.938619391642,
+        "newLat": 39.020556,
+        "newLng": -76.8776166,
+        "newDist": 3.86965540734058,
+        "formatted": "Research Rd, Maryland, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "3275",
+      "name": "Ridge Road and Plateau Place",
+      "aliases": [
+        "Ridge Road and Plateau Place"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3275",
+        "3276"
+      ],
+      "lat": 39.009099,
+      "lng": -76.87342699999999,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3279",
+      "name": "Ridge Road and Eastway",
+      "aliases": [
+        "Ridge Road and Eastway"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3279",
+        "3280"
+      ],
+      "lat": 39.005127,
+      "lng": -76.872879,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3283",
+      "name": "Ridge Road and Gardenway",
+      "aliases": [
+        "Ridge Road and Gardenway"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3283",
+        "3288",
+        "3284"
+      ],
+      "lat": 39.000325,
+      "lng": -76.873116,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3287",
+      "name": "Ridge Road at Green Ridge House Apartments",
+      "aliases": [
+        "Ridge Road at Green Ridge House Apartments"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3287"
+      ],
+      "lat": 38.9986371,
+      "lng": -76.87432009999999,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Ridge Road at Green Ridge House Apartments",
+        "oldLat": 41.6015982,
+        "oldLng": -81.4703047,
+        "oldDist": 299.2985876684098,
+        "newLat": 38.9986371,
+        "newLng": -76.87432009999999,
+        "newDist": 3.462313783329092,
+        "formatted": "22 Ridge Rd, Greenbelt, MD 20770, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "3291",
+      "name": "Westway and Ridge Road",
+      "aliases": [
+        "Westway and Ridge Road"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3291",
+        "3292"
+      ],
+      "lat": 38.999538,
+      "lng": -76.88195,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3295",
+      "name": "Lakeside Drive and Westway",
+      "aliases": [
+        "Lakeside Drive and Westway"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3295",
+        "3296"
+      ],
+      "lat": 38.998478,
+      "lng": -76.885063,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3303",
+      "name": "Lakecrest Drive and Greenbelt Road",
+      "aliases": [
+        "Lakecrest Drive and Greenbelt Road"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3303",
+        "3304"
+      ],
+      "lat": 38.9956004,
+      "lng": -76.8867408,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3307",
+      "name": "Greenbelt Road at Greenway Center",
+      "aliases": [
+        "Greenbelt Road at Greenway Center"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3307",
+        "3308"
+      ],
+      "lat": 38.9924187,
+      "lng": -76.8788297,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3314",
+      "name": "Ora Glen Drive and Hanover Parkway",
+      "aliases": [
+        "Ora Glen Drive and Hanover Parkway"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3314"
+      ],
+      "lat": 38.991492,
+      "lng": -76.87663479999999,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3318",
+      "name": "Ora Glen Drive and Greenbrook Drive",
+      "aliases": [
+        "Ora Glen Drive and Greenbrook Drive"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3318"
+      ],
+      "lat": 38.9901931,
+      "lng": -76.8704477,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3322",
+      "name": "Mandan Road and Canning Terrace",
+      "aliases": [
+        "Mandan Road and Canning Terrace"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3322"
+      ],
+      "lat": 38.990652,
+      "lng": -76.8643596,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3326",
+      "name": "Mandan Road and Morrison Drive",
+      "aliases": [
+        "Mandan Road and Morrison Drive"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3326"
+      ],
+      "lat": 38.9928384,
+      "lng": -76.8644536,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3330",
+      "name": "Mandan Road at Glen Oaks Apartments",
+      "aliases": [
+        "Mandan Road at Glen Oaks Apartments"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3330"
+      ],
+      "lat": 38.9935673,
+      "lng": -76.8638082,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3334",
+      "name": "Mandan Road and Hanover Parkway",
+      "aliases": [
+        "Mandan Road and Hanover Parkway"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3334"
+      ],
+      "lat": 38.9980412,
+      "lng": -76.8656522,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3337",
+      "name": "Hanover Parkway at Eleanor Roosevelt High School",
+      "aliases": [
+        "Hanover Parkway at Eleanor Roosevelt High School"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3337"
+      ],
+      "lat": 38.9947794,
+      "lng": -76.8700919,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3341",
+      "name": "Hanover Parkway and Greenbelt Road",
+      "aliases": [
+        "Hanover Parkway and Greenbelt Road"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3341"
+      ],
+      "lat": 38.9941258,
+      "lng": -76.87417719999999,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3298",
+      "name": "Lakecrest Drive and Lakeside Drive",
+      "aliases": [
+        "Lakecrest Drive and Lakeside Drive"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3298"
+      ],
+      "lat": 38.997784,
+      "lng": -76.886032,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3261",
+      "name": "Lastner Lane and Ivy Lane",
+      "aliases": [
+        "Lastner Lane and Ivy Lane"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3261"
+      ],
+      "lat": 39.0073943,
+      "lng": -76.8887139,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3257",
+      "name": "Ivy Lane and Ridge Road",
+      "aliases": [
+        "Ivy Lane and Ridge Road"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3257"
+      ],
+      "lat": 39.0077806,
+      "lng": -76.8908146,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Ivy Lane and Ridge Road",
+        "oldLat": 34.0231319,
+        "oldLng": -84.27660209999999,
+        "oldDist": 532.4693562253411,
+        "newLat": 39.0077806,
+        "newLng": -76.8908146,
+        "newDist": 2.8135089409266674,
+        "formatted": "Ridge Rd & Ivy Ln, Greenbelt, MD 20770, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "3233",
+      "name": "Pontiac Street and Cunningham Drive",
+      "aliases": [
+        "Pontiac Street and Cunningham Drive"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3233"
+      ],
+      "lat": 38.9922518,
+      "lng": -76.913135,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": {
+        "name": "Pontiac Street and Cunningham Drive",
+        "oldLat": 14.7039655,
+        "oldLng": 121.0700552,
+        "oldDist": 8548.987352533224,
+        "newLat": 38.9922518,
+        "newLng": -76.913135,
+        "newDist": 1.3341694455123143,
+        "formatted": "Cunningham Dr & Pontiac St, Berwyn Heights, MD 20740, USA",
+        "updated": true
+      }
+    },
+    {
+      "id": "3226",
+      "name": "60th Avenue and Quebec Place",
+      "aliases": [
+        "60th Avenue and Quebec Place"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3226"
+      ],
+      "lat": 38.9938746,
+      "lng": -76.9114706,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    },
+    {
+      "id": "3215",
+      "name": "Greenbelt Road and Branchville Road",
+      "aliases": [
+        "Greenbelt Road and Branchville Road"
+      ],
+      "lines": [
+        "143"
+      ],
+      "stopIds": [
+        "3215"
+      ],
+      "lat": 38.9980784,
+      "lng": -76.9145812,
+      "linesInfo": [
+        {
+          "id": "143",
+          "name": "GREENBELT",
+          "url": "https://transportation.umd.edu/143-spring"
+        }
+      ],
+      "regeocodeChange": null
+    }
+  ],
+  "outliersRegeocodeReport": {
+    "changed": 30,
+    "total": 30,
+    "changes": [
+      {
+        "name": "Mitchell Building",
+        "oldLat": 43.0372148,
+        "oldLng": -87.9085703,
+        "oldDist": 635.9870237154397,
+        "newLat": 38.986705,
+        "newLng": -76.9395145,
+        "newDist": 0.2271717603832679,
+        "formatted": "7999 Regents Dr, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "Memorial Chapel",
+        "oldLat": 30.2815485,
+        "oldLng": -82.1237795,
+        "oldDist": 669.7122011440174,
+        "newLat": 38.9842035,
+        "newLng": -76.9408095,
+        "newDist": 0.41337545184509245,
+        "formatted": "7600 Baltimore Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "Montgomery Hall",
+        "oldLat": 32.0480997,
+        "oldLng": -81.109261,
+        "oldDist": 533.7549925085752,
+        "newLat": 38.9818893,
+        "newLng": -76.9392989,
+        "newDist": 0.5457399807080019,
+        "formatted": "7570 Regents Dr, College Park, MD 20742, USA",
+        "updated": true
+      },
+      {
+        "name": "Denton Hall",
+        "oldLat": 53.93409399999999,
+        "oldLng": -1.776569,
+        "oldDist": 3541.8019545249203,
+        "newLat": 38.99224540000001,
+        "newLng": -76.9499816,
+        "newDist": 0.6795511257094522,
+        "formatted": "3854 Stadium Dr, College Park, MD 20742, USA",
+        "updated": true
+      },
+      {
+        "name": "Mount Pisgah Road at Chateau Apartments",
+        "oldLat": 34.1216079,
+        "oldLng": -85.9559038,
+        "oldDist": 602.5577824690818,
+        "newLat": 39.0145847,
+        "newLng": -76.9771934,
+        "newDist": 2.727688176602484,
+        "formatted": "Mt Pisgah Rd, Silver Spring, MD 20903, USA",
+        "updated": true
+      },
+      {
+        "name": "42nd Avenue and Madison Street",
+        "oldLat": 47.6354815,
+        "oldLng": -122.278499,
+        "oldDist": 2320.8255207669904,
+        "newLat": 38.9576986,
+        "newLng": -76.9466808,
+        "newDist": 2.262214242744868,
+        "formatted": "Madison St & 42nd Ave, Hyattsville, MD 20781, USA",
+        "updated": true
+      },
+      {
+        "name": "University View",
+        "oldLat": 30.4021362,
+        "oldLng": -91.17399569999999,
+        "oldDist": 1001.0139456273838,
+        "newLat": 38.9922678,
+        "newLng": -76.9343607,
+        "newDist": 0.25472387741424446,
+        "formatted": "8204 Baltimore Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "Baltimore Avenue at The Varsity",
+        "oldLat": 39.9479386,
+        "oldLng": -75.2234532,
+        "oldDist": 112.88850087232305,
+        "newLat": 38.9915932,
+        "newLng": -76.9342679,
+        "newDist": 0.22878136466961588,
+        "formatted": "8150 Baltimore Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "College Avenue and Yale Avenue",
+        "oldLat": 40.7457655,
+        "oldLng": -111.8593227,
+        "oldDist": 1843.6979377879388,
+        "newLat": 38.9817875,
+        "newLng": -76.9362829,
+        "newDist": 0.5522070801347904,
+        "formatted": "College Ave & Yale Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "Rhode Island and Navahoe Street",
+        "oldLat": 41.5800945,
+        "oldLng": -71.4774291,
+        "oldDist": 338.8112756792448,
+        "newLat": 38.9892789,
+        "newLng": -76.92864,
+        "newDist": 0.49063204168716185,
+        "formatted": "Navahoe St & Rhode Island Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "University Club Apartments",
+        "oldLat": 42.35275619999999,
+        "oldLng": -83.07121839999999,
+        "oldDist": 396.4487022064466,
+        "newLat": 38.9908866,
+        "newLng": -76.9295653,
+        "newDist": 0.4476982956312328,
+        "formatted": "Park, University Club at College, 4800 Berwyn House Rd Unit 501, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "Cambridge Hall",
+        "oldLat": 30.6205247,
+        "oldLng": -96.31703139999999,
+        "oldDist": 1238.5911378923367,
+        "newLat": 38.9917298,
+        "newLng": -76.9430507,
+        "newDist": 0.316957191731046,
+        "formatted": "Cambridge Hall, 4230 Farm Dr, College Park, MD 20742, USA",
+        "updated": true
+      },
+      {
+        "name": "Cumberland Hall",
+        "oldLat": 35.0675912,
+        "oldLng": -78.9274842,
+        "oldDist": 292.3535528326739,
+        "newLat": 38.9920653,
+        "newLng": -76.9438974,
+        "newDist": 0.3679916997635174,
+        "formatted": "4250 Farm Dr, College Park, MD 20742, USA",
+        "updated": true
+      },
+      {
+        "name": "Alumni Drive at Stadium Drive Garage",
+        "oldLat": 41.3756811,
+        "oldLng": -83.6235537,
+        "oldDist": 389.3821674282682,
+        "newLat": 38.9908288,
+        "newLng": -76.94891249999999,
+        "newDist": 0.6040155794247467,
+        "formatted": "4025 Stadium Dr, College Park, MD 20742, USA",
+        "updated": true
+      },
+      {
+        "name": "University Methodist Church",
+        "oldLat": 29.5644779,
+        "oldLng": -98.5852146,
+        "oldDist": 1391.9646714525613,
+        "newLat": 38.9842373,
+        "newLng": -76.9512082,
+        "newDist": 0.8148217264289921,
+        "formatted": "3621 Campus Dr, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "LDS Institute of Religion",
+        "oldLat": 40.7598154,
+        "oldLng": -111.8389764,
+        "oldDist": 1842.5117999368501,
+        "newLat": 38.981934,
+        "newLng": -76.94737099999999,
+        "newDist": 0.7443909192830511,
+        "formatted": "7601 Mowatt Ln, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "College Avenue and Princeton Avenue",
+        "oldLat": 37.65575,
+        "oldLng": -121.0076,
+        "oldDist": 2367.0854679839294,
+        "newLat": 38.9814537,
+        "newLng": -76.9347933,
+        "newDist": 0.5914100050639748,
+        "formatted": "College Ave & Princeton Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "College Avenue and Hopkins Avenue",
+        "oldLat": 42.2768134,
+        "oldLng": -83.2897986,
+        "oldDist": 402.95542029258587,
+        "newLat": 38.9811183,
+        "newLng": -76.93330499999999,
+        "newDist": 0.6391880346935508,
+        "formatted": "College Ave & Hopkins Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "Riverdale Road and Eastpine Drive",
+        "oldLat": 39.9202875,
+        "oldLng": -104.8886615,
+        "oldDist": 1486.4505690734081,
+        "newLat": 38.9585857,
+        "newLng": -76.9068249,
+        "newDist": 2.716980297107245,
+        "formatted": "Eastpine Dr, East Riverdale, MD 20737, USA",
+        "updated": true
+      },
+      {
+        "name": "Westbrook Drive and Carrollton Parkway",
+        "oldLat": 33.0392303,
+        "oldLng": -96.9442825,
+        "oldDist": 1188.2388193734928,
+        "newLat": 38.9701793,
+        "newLng": -76.8776915,
+        "newDist": 3.4968526428944715,
+        "formatted": "Carrollton Pkwy, New Carrollton, MD 20784, USA",
+        "updated": true
+      },
+      {
+        "name": "Westbrook Drive and Quentin Street",
+        "oldLat": 55.8327261,
+        "oldLng": -4.2840336,
+        "oldDist": 3413.474733366441,
+        "newLat": 38.9701426,
+        "newLng": -76.8825697,
+        "newDist": 3.2577244469289406,
+        "formatted": "Quentin St, New Carrollton, MD 20784, USA",
+        "updated": true
+      },
+      {
+        "name": "Auburn Avenue and 3rd Street",
+        "oldLat": 33.7537814,
+        "oldLng": -84.376547,
+        "oldDist": 549.3170200937687,
+        "newLat": 38.9689826,
+        "newLng": -76.8948432,
+        "newDist": 2.7133142573207563,
+        "formatted": "3rd St & Auburn Ave, East Riverdale, MD 20737, USA",
+        "updated": true
+      },
+      {
+        "name": "Auburn Avenue and 1st Street",
+        "oldLat": 47.3081655,
+        "oldLng": -122.2281591,
+        "oldDist": 2319.396607907985,
+        "newLat": 38.96637,
+        "newLng": -76.895996,
+        "newDist": 2.7622327935667195,
+        "formatted": "Auburn Av & 1 St, East Riverdale, MD 20737, USA",
+        "updated": true
+      },
+      {
+        "name": "Rhode Island Avenue and Cherokee Street",
+        "oldLat": 38.5932824,
+        "oldLng": -90.2254644,
+        "oldDist": 715.4860577030587,
+        "newLat": 39.0026078,
+        "newLng": -76.92444069999999,
+        "newDist": 1.1434022353278293,
+        "formatted": "Cherokee St & Rhode Island Ave, College Park, MD 20740, USA",
+        "updated": true
+      },
+      {
+        "name": "Westchester Park Circle",
+        "oldLat": 41.038624,
+        "oldLng": -73.7717812,
+        "oldDist": 219.31339139001017,
+        "newLat": 38.9914539,
+        "newLng": -76.9024771,
+        "newDist": 1.8986956802338517,
+        "formatted": "Westchester Park Dr, Maryland, USA",
+        "updated": true
+      },
+      {
+        "name": "Ridge Road and Ivy Lane",
+        "oldLat": 34.0231319,
+        "oldLng": -84.27660209999999,
+        "oldDist": 532.4693562253411,
+        "newLat": 39.0077806,
+        "newLng": -76.8908146,
+        "newDist": 2.8135089409266674,
+        "formatted": "Ridge Rd & Ivy Ln, Greenbelt, MD 20770, USA",
+        "updated": true
+      },
+      {
+        "name": "Ridge Road and Research Road",
+        "oldLat": -34.8194413,
+        "oldLng": 138.6401708,
+        "oldDist": 10462.938619391642,
+        "newLat": 39.020556,
+        "newLng": -76.8776166,
+        "newDist": 3.86965540734058,
+        "formatted": "Research Rd, Maryland, USA",
+        "updated": true
+      },
+      {
+        "name": "Ridge Road at Green Ridge House Apartments",
+        "oldLat": 41.6015982,
+        "oldLng": -81.4703047,
+        "oldDist": 299.2985876684098,
+        "newLat": 38.9986371,
+        "newLng": -76.87432009999999,
+        "newDist": 3.462313783329092,
+        "formatted": "22 Ridge Rd, Greenbelt, MD 20770, USA",
+        "updated": true
+      },
+      {
+        "name": "Ivy Lane and Ridge Road",
+        "oldLat": 34.0231319,
+        "oldLng": -84.27660209999999,
+        "oldDist": 532.4693562253411,
+        "newLat": 39.0077806,
+        "newLng": -76.8908146,
+        "newDist": 2.8135089409266674,
+        "formatted": "Ridge Rd & Ivy Ln, Greenbelt, MD 20770, USA",
+        "updated": true
+      },
+      {
+        "name": "Pontiac Street and Cunningham Drive",
+        "oldLat": 14.7039655,
+        "oldLng": 121.0700552,
+        "oldDist": 8548.987352533224,
+        "newLat": 38.9922518,
+        "newLng": -76.913135,
+        "newDist": 1.3341694455123143,
+        "formatted": "Cunningham Dr & Pontiac St, Berwyn Heights, MD 20740, USA",
+        "updated": true
+      }
+    ]
+  }
+}

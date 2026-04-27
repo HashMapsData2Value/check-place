@@ -1,0 +1,21 @@
+:root{
+  /* Global design tokens (single source of truth) */
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --muted: #64748b;
+  --muted-strong: #475569;
+  --accent: #f26336;
+  --soft: #eef2ff;
+  --line: #e6eef8;
+  --ink: #111;
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+
+h1,h2,h3,p{margin:0}
+
+#root{min-height:100vh}
