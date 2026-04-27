@@ -137,6 +137,15 @@ else
 fi
 cd app || exit 0
 
+# before starting compose, try to populate backend/.env from SSM
+if aws ssm get-parameter --name "/check-place/backend/env" --region "${aws_region}" --with-decryption --query Parameter.Value --output text > /home/ec2-user/app/backend/.env 2>/dev/null; then
+  echo "wrote backend/.env from SSM" >> "$MARKER" || true
+  chown ec2-user:ec2-user /home/ec2-user/app/backend/.env || true
+  chmod 600 /home/ec2-user/app/backend/.env || true
+else
+  echo "no SSM /check-place/backend/env parameter found or retrieval failed" >> "$MARKER" || true
+fi
+
 # Run compose (assumes docker compose v2 plugin or docker-compose present)
 docker compose pull || true
 docker compose up -d || true
